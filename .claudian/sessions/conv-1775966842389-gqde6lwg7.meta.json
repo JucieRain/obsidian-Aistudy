@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775966842389-gqde6lwg7",
+  "providerId": "claude",
+  "title": "nihao",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775966842392,
+  "updatedAt": 1775966851765,
+  "lastResponseAt": 1775966851765,
+  "sessionId": "792ae7c5-62b8-49e6-9897-776dc4b823a2",
+  "providerState": {
+    "providerSessionId": "792ae7c5-62b8-49e6-9897-776dc4b823a2"
+  },
+  "usage": {
+    "model": "glm-5",
+    "inputTokens": 40558,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 40558,
+    "percentage": 20,
+    "contextWindowIsAuthoritative": true
+  }
+}
