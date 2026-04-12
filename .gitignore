@@ -1,0 +1,16 @@
+# Obsidian 工作区配置（包含窗口布局，不需要同步）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 图谱缓存
+.obsidian/graph.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+~$*
