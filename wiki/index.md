@@ -66,6 +66,8 @@
 | [[practices/Obsidian Git 同步]] | Git 实现 Obsidian 跨设备同步方案 | 1 |
 | [[practices/今日待办]] | 2026-04-22 AI 学习与知识整理待办清单 | - |
 | [[practices/工具模型配置汇总]] | Hermes/OpenClaw/Claude Code/Claudian/cc-switch 模型配置指南 | 5 |
+| [[practices/工作日志模板]] | 基于 Obsidian Properties + Dataview 的项目管理模板 | 新建 |
+| [[practices/项目追踪总览]] | 项目管理仪表盘 + 任务追踪 + 里程碑 | 新建 |
 
 ---
 
@@ -83,11 +85,11 @@
 
 - **素材总数**：10 文章 + 3 PDF
 - **已处理素材**：10/13 篇 (77%)
-- **Wiki 页面数**：19
+- **Wiki 页面数**：21
 - **概念页面**：3
 - **工具页面**：10
 - **人物页面**：1
-- **实践页面**：3
+- **实践页面**：5
 - **综合页面**：1
 
 ---
