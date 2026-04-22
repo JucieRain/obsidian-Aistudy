@@ -4,6 +4,54 @@
 
 ---
 
+## [2026-04-22] query | Obsidian Git 同步状态检查
+
+**操作类型**：同步验证
+**执行内容**：
+- 检查本地 vault git 状态（main 分支）
+- 验证远程仓库连接（github.com/JucieRain/obsidian-Aistudy）
+- 执行 git fetch 检查远程新提交
+- 确认本地已同步，无新内容需拉取
+
+**同步状态**：
+- 本地仓库：origin/main，已同步
+- 未提交变更：工具模型配置汇总.md、index.md、log.md、今日待办.md
+- Hermes 端：需配置 git push 自动化
+
+**待完成**：
+- Hermes 端远程输入流程配置
+
+---
+
+## [2026-04-22] ingest | 工具模型配置汇总
+
+**操作类型**：知识整理
+**执行内容**：
+- 整理 Hermes Agent、OpenClaw、Claude Code、Claudian、cc-switch 的模型配置方法
+- 从已有素材提取配置步骤、环境变量、常见问题
+- 创建配置速查表和推荐方案
+
+**新增页面**：
+- wiki/practices/工具模型配置汇总.md
+
+**内容覆盖**：
+- Hermes Agent：`hermes config set`、DashScope/OpenRouter 配置、辅助模型配置
+- OpenClaw：控制台配置、Coding Plan API Key、支持模型列表
+- Claude Code：settings.json 格式、第三方中转配置、常见问题
+- Claudian：继承 Claude Code 配置、安装方式
+- cc-switch：一键切换模型、支持国产模型、项目地址
+- 配置速查表：环境变量对照、配置文件路径
+- 推荐方案：最低成本、高质量、国产模型
+
+**待补充**：
+- Workbody 工具配置方法（无素材）
+
+**页面更新**：
+- wiki/index.md（+1 条目，实践页面 3）
+- wiki/log.md（本记录）
+
+---
+
 ## [2026-04-22] lint | 主流模型版本全面修正
 
 **操作类型**：数据校验与全面更新
