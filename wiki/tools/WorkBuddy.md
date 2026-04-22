@@ -5,6 +5,10 @@ updated: 2026-04-22
 sources:
   - "[[Clippings/articles/用WorkBuddy养出你的龙虾搭子！【附提示词】.md]]"
   - "[[Clippings/articles/WorkBuddy 官网.md]]"
+  - "[[Clippings/articles/Windows 系统安装指南  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]"
+  - "[[Clippings/articles/快速开始  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]"
+  - "[[Clippings/articles/Claw 远程控制  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]"
+  - "[[Clippings/articles/WorkBuddy 小程序简介  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]"
 tags:
   - tool
   - agent
@@ -15,14 +19,16 @@ status: stable
 
 # WorkBuddy
 
-> 腾讯开发的国产龙虾，给普通白领打造的Work Buddy，支持微信集成
+> 腾讯推出的全场景职场 AI 智能体桌面工作台，一句话下达任务，自主规划执行
 
 ## 官方资源
 
 | 资源 | 链接 |
 |-----|------|
 | **官网下载** | https://www.codebuddy.cn/work/ |
-| **产品定位** | 门槛最低的国产龙虾 |
+| **产品文档** | https://www.codebuddy.cn/docs/workbuddy/ |
+| **小程序** | 微信搜索「腾讯 WorkBuddy」 |
+| **产品定位** | 门槛最低的国产龙虾
 
 ## 安装方式
 
@@ -170,4 +176,131 @@ status: stable
 
 - [[Clippings/articles/用WorkBuddy养出你的龙虾搭子！【附提示词】.md]]
 - [[Clippings/articles/WorkBuddy 官网.md]]
+- [[Clippings/articles/Windows 系统安装指南  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]
+- [[Clippings/articles/快速开始  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]
+- [[Clippings/articles/Claw 远程控制  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]
+- [[Clippings/articles/WorkBuddy 小程序简介  腾讯云代码助手 CodeBuddy – AI 代码编辑器.md]]
 - 作者：秋芝2046
+
+---
+
+## Windows 安装指南
+
+### 下载安装
+
+1. 访问官网 https://www.codebuddy.cn/work/
+2. 点击「立即下载」等待安装包下载
+3. 双击安装包启动安装程序
+4. 勾选「我同意此协议」→ 下一步
+5. 选择安装路径 → 下一步
+6. 确认开始菜单文件夹 → 下一步
+7. 勾选「创建桌面快捷方式」→ 下一步
+8. 点击「安装」→ 完成
+
+### 登录
+
+1. 启动 WorkBuddy，点击「登录」
+2. 勾选《服务条款》与《隐私协议》
+3. 使用微信扫码完成登录
+4. 登录成功后即可开始使用
+
+### 语言设置
+
+点击左下角头像 → 语言 进行切换。
+
+### 版本更新
+
+点击左下角头像 → 检查更新，系统自动检测并升级。
+
+---
+
+## Claw 远程控制
+
+Claw 是 WorkBuddy 的远程控制功能，通过手机即时通讯软件远程控制电脑。
+
+### 支持平台
+
+| 平台 | 状态 |
+|-----|------|
+| **微信** | ✅ 支持 |
+| **企业微信** | ✅ 支持 |
+| **QQ** | ✅ 支持 |
+| **元宝派** | ✅ 支持 |
+| **钉钉** | ✅ 支持 |
+| **飞书** | ✅ 支持 |
+
+### 使用场景
+
+- **出门在外**：用手机让电脑处理文件
+- **会议中**：快速生成会议纪要
+- **通勤路上**：提前安排工作材料
+- **临时需求**：随时随地发送任务
+
+### 开启 Claw
+
+1. 打开 WorkBuddy
+2. 点击「Claw 设置」
+3. 选择接入平台
+4. 按提示完成配置
+
+### 接入指南
+
+| 平台 | 指南链接 |
+|-----|---------|
+| 微信 ClawBot | https://www.codebuddy.cn/docs/workbuddy/WeixinBot-Guide |
+| 微信服务号 | https://www.codebuddy.cn/docs/workbuddy/Wechat-Guide |
+| 企业微信 | https://www.codebuddy.cn/docs/workbuddy/Wecom-Guide |
+| QQ | https://www.codebuddy.cn/docs/workbuddy/QQ-Guide |
+| 钉钉 | https://www.codebuddy.cn/docs/workbuddy/Dingtalk-Guide |
+| 飞书 | https://www.codebuddy.cn/docs/workbuddy/Feishu-Guide |
+
+### 注意事项
+
+- 使用 Claw 时电脑需保持开机并运行 WorkBuddy
+- 确保网络连接正常
+- 小程序登录的微信账号需与电脑端一致
+
+---
+
+## WorkBuddy 小程序
+
+WorkBuddy 微信小程序是移动端入口，支持云上模式和本机模式。
+
+### 核心能力
+
+- **多模态输入**：文字、语音、图片、文件
+- **双模式执行**：
+  - 云上模式：云端沙箱执行，无需依赖电脑
+  - 本机模式：远程操控桌面端 WorkBuddy
+- **任务管理**：创建、查看、追问、中断
+- **技能扩展**：通过 SkillHub 安装技能包
+
+### 进入小程序
+
+**扫码进入**：微信扫描小程序码
+
+**搜索进入**：
+1. 微信下拉进入「小程序」搜索栏
+2. 搜索「腾讯 WorkBuddy」
+3. 点击进入
+
+---
+
+## 产品模式
+
+### 工作模式（默认）
+
+面向职场通用工作场景：
+- 文档生成：工作报告、技术文档、README
+- 数据分析：上传数据文件，自动分析和可视化
+- PPT/报告生成：从需求描述生成演示文稿
+- 深度研究：对复杂问题进行深度调研并输出报告
+- 邮件编辑、周报生成等办公场景
+- 批量文件处理：整理、重命名、转换格式
+
+### 编程模式
+
+面向代码开发场景：
+- 日常编码辅助：代码生成、审查、Bug 修复、重构优化
+- 项目理解：快速了解陌生代码库
+- 网站/应用开发：从需求到代码全流程辅助

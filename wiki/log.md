@@ -34,6 +34,48 @@
 
 ---
 
+## [2026-04-22] ingest | 7篇素材批量录入（Phase 2+3 完成）
+
+**操作类型**：素材录入
+**触发原因**：用户确认继续执行 Phase 2 内容提取和 Phase 3 Wiki 更新
+
+**素材处理**：
+- ✓ Clippings/articles/磨砺你的思维。.md（Obsidian 官网）
+- ✓ Clippings/articles/Typeless Windows 应用发布说明.md
+- ✓ Clippings/articles/OpenClaw在飞书和Telegram上养了12个AI员工，它们还会自己开会.md
+- ✓ Clippings/articles/Windows 系统安装指南 (CodeBuddy).md
+- ✓ Clippings/articles/Claw 远程控制 (CodeBuddy).md
+- ✓ Clippings/articles/快速开始 (CodeBuddy).md
+- ✓ Clippings/articles/WorkBuddy 小程序简介 (CodeBuddy).md
+
+**新增页面（2个）**：
+
+**工具层** (1个)：
+- wiki/tools/Typeless.md - AI语音听写工具，边想边说+翻译+个性化风格
+
+**人物层** (1个)：
+- wiki/people/俊哥AI副业.md - OpenClaw多Agent实践者，12个AI员工配置教程
+
+**更新页面（3个）**：
+- wiki/tools/Obsidian.md - 补充官网功能（白板Canvas、Sync同步、Publish发布）
+- wiki/tools/OpenClaw.md - 补充多Agent配置（agents.list、bindings、agentToAgent、AGENTS.md、踩坑经验）
+- wiki/tools/WorkBuddy.md - 补充安装指南、Claw远程控制、小程序、产品模式
+
+**页面更新**：
+- wiki/index.md（+2条目，总页面数31，素材数31文章+3PDF）
+- wiki/log.md（本记录）
+
+**覆盖内容**：
+
+| 工具 | 补充内容 |
+|-----|---------|
+| Obsidian | 官网资源链接、白板Canvas、Sync同步、Publish发布、版本历史 |
+| OpenClaw | 多Agent路由配置、飞书多账户bindings、agentToAgent通信、AGENTS.md团队成员、SOUL.md人设、踩坑经验 |
+| WorkBuddy | Windows安装指南、Claw远程控制（6平台）、小程序云上/本机模式、工作/编程模式 |
+| Typeless | 新工具页面：语音听写、翻译、任意提问、版本历史、隐私设计 |
+
+---
+
 ## [2026-04-22] ingest | 新增3篇官方文档素材
 
 **操作类型**：素材录入
