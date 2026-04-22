@@ -41,23 +41,23 @@ AI 领域 Twitter 为何重要：
 
 | 账号 | 链接 | 简介 |
 |-----|------|------|
-| **OpenAI** | [twitter.com/OpenAI](https://twitter.com/OpenAI) | 官方号，最新模型发布 |
-| **Sam Altman** | [twitter.com/sama](https://twitter.com/sama) | OpenAI 创始人 |
-| **Elon Musk** | [twitter.com/elonmusk](https://twitter.com/elonmusk) | 钢铁侠 |
-| **Andrej Karpathy** | [twitter.com/karpathy](https://twitter.com/karpathy) | 前特斯拉 AI 总监，LLM Wiki 提出者 |
-| **Yann LeCun** | [twitter.com/ylecun](https://twitter.com/ylecun) | Meta 前首席科学家 |
-| **吴恩达** | [twitter.com/AndrewYNg](https://twitter.com/AndrewYNg) | Coursera 联合创始人 |
-| **李飞飞** | [twitter.com/drfeifei](https://twitter.com/drfeifei) | 斯坦福 AI 实验室主任 |
-| **François Chollet** | [twitter.com/fchollet](https://twitter.com/fchollet) | Keras 创始人 |
-| **宝玉** | [twitter.com/dotey](https://twitter.com/dotey) | 中文知名博主 |
-| **歸藏** | [twitter.com/op7418](https://twitter.com/op7418) | 经常分享 AI 最新资讯 |
-| **Gorden Sun** | [twitter.com/Gorden_Sun](https://twitter.com/Gorden_Sun) | AI 日报维护者 |
-| **Jim Fan** | [twitter.com/DrJimFan](https://twitter.com/DrJimFan) | NVIDIA 科学家 |
-| **clem** | [twitter.com/ClementDelangue](https://twitter.com/ClementDelangue) | HuggingFace CEO |
+| **OpenAI** | https://twitter.com/OpenAI | 官方号，最新模型发布 |
+| **Sam Altman** | https://twitter.com/sama | OpenAI 创始人 |
+| **Elon Musk** | https://twitter.com/elonmusk | 钢铁侠 |
+| **Andrej Karpathy** | https://twitter.com/karpathy | 前特斯拉 AI 总监，LLM Wiki 提出者 |
+| **Yann LeCun** | https://twitter.com/ylecun | Meta 前首席科学家 |
+| **吴恩达** | https://twitter.com/AndrewYNg | Coursera 联合创始人 |
+| **李飞飞** | https://twitter.com/drfeifei | 斯坦福 AI 实验室主任 |
+| **François Chollet** | https://twitter.com/fchollet | Keras 创始人 |
+| **宝玉** | https://twitter.com/dotey | 中文知名博主 |
+| **歸藏** | https://twitter.com/op7418 | 经常分享 AI 最新资讯 |
+| **Gorden Sun** | https://twitter.com/Gorden_Sun | AI 日报维护者 |
+| **Jim Fan** | https://twitter.com/DrJimFan | NVIDIA 科学家 |
+| **clem (HuggingFace CEO)** | https://twitter.com/ClementDelangue | HuggingFace 创始人兼 CEO |
 
 ### Twitter Threads 排行榜
 
-[readwise.io/twitter_leaderboard?threads](https://readwise.io/twitter_leaderboard?threads) - 热门推文合集
+https://readwise.io/twitter_leaderboard?threads - 热门推文合集
 
 ---
 
@@ -65,9 +65,9 @@ AI 领域 Twitter 为何重要：
 
 | 公众号 | 链接 | 特点 |
 |-----|------|------|
-| **AI Reading Hub** | [公众号专辑](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxNTA3MDY1NA==&action=getalbum&album_id=4187174751422529539) | 日更，定期深度报告 |
+| **AI Reading Hub** | 微信搜索或公众号专辑 | 日更，定期深度报告 |
 | **42章经** | 微信搜索 | 直接访谈一线大佬 |
-| **机器人大讲堂** | [公众号专辑](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI5MzE0NDUzNQ==&action=getalbum&album_id=1610828918314319873) | 清华团队，干货多 |
+| **机器人大讲堂** | 微信搜索 | 清华团队，干货多 |
 | **量子位** | 微信搜索 | 最新资讯（标题党） |
 | **机器之心** | 微信搜索 | 最新资讯（标题党） |
 | **新智元** | 微信搜索 | 最新资讯（标题党） |
@@ -80,18 +80,18 @@ AI 领域 Twitter 为何重要：
 
 | 网站 | 链接 | 说明 |
 |-----|------|------|
-| **GitHub Trending** | [github.com/trending](https://github.com/trending) | 程序员必刷热榜 |
-| **Hugging Face Papers** | [huggingface.co/papers](https://huggingface.co/papers) | AK 维护的论文日榜 |
-| **Arxiv (cs.CL)** | [arxiv.org/list/cs.CL/recent](https://arxiv.org/list/cs.CL/recent) | LLM 最新论文原始源 |
-| **PapersWithCode SOTA** | [paperswithcode.com/sota](https://paperswithcode.com/sota) | 各领域排行榜 |
-| **Cool Papers** | [papers.cool](https://papers.cool/) | 苏剑林刷论文网站 |
-| **科学空间** | [kexue.fm](https://kexue.fm/) | 苏剑林个人博客 |
-| **MIT News** | [news.mit.edu](https://news.mit.edu/) | 科技媒体上游信息源 |
-| **Futurepedia** | [futurepedia.io](https://www.futurepedia.io/) | AI 应用目录，每日更新 |
-| **ShowMeAI** | [showmeai.tech](https://www.showmeai.tech/) | AI 日报整合平台 |
-| **Reddit ChatGPT** | [reddit.com/r/ChatGPT](https://www.reddit.com/r/ChatGPT) | 350万订阅者社区 |
-| **Reddit artificial** | [reddit.com/r/artificial](https://www.reddit.com/r/artificial/) | 73万订阅者社区 |
-| **GiantPandaCV** | [giantpandacv.com](http://giantpandacv.com/) | CV 干货，论文解读 |
+| **GitHub Trending** | https://github.com/trending | 程序员必刷热榜 |
+| **Hugging Face Papers** | https://huggingface.co/papers | AK 维护的论文日榜 |
+| **Arxiv (cs.CL)** | https://arxiv.org/list/cs.CL/recent | LLM 最新论文原始源 |
+| **PapersWithCode SOTA** | https://paperswithcode.com/sota | 各领域排行榜 |
+| **Cool Papers** | https://papers.cool | 苏剑林刷论文网站 |
+| **科学空间** | https://kexue.fm | 苏剑林个人博客 |
+| **MIT News** | https://news.mit.edu | 科技媒体上游信息源 |
+| **Futurepedia** | https://www.futurepedia.io | AI 应用目录，每日更新 |
+| **ShowMeAI** | https://www.showmeai.tech | AI 日报整合平台 |
+| **Reddit ChatGPT** | https://www.reddit.com/r/ChatGPT | 350万订阅者社区 |
+| **Reddit artificial** | https://www.reddit.com/r/artificial | 73万订阅者社区 |
+| **GiantPandaCV** | http://giantpandacv.com | CV 干货，论文解读 |
 
 ---
 
@@ -99,12 +99,12 @@ AI 领域 Twitter 为何重要：
 
 | 博客 | 链接 | 说明 |
 |-----|------|------|
-| **OpenAI Blog** | [openai.com/blog](https://openai.com/blog) | OpenAI 官方博客 |
-| **Google AI Blog** | [blog.research.google](https://blog.research.google/) | Google AI 团队 |
-| **DeepMind Blog** | [deepmind.google/discover/blog](https://deepmind.google/discover/blog/) | DeepMind 研究成果 |
-| **Meta AI Blog** | [ai.meta.com/blog](https://ai.meta.com/blog/) | Facebook AI 团队 |
-| **NVIDIA Blog** | [blogs.nvidia.com/blog/category/deep-learning](https://blogs.nvidia.com/blog/category/deep-learning/) | 硬件加速、AI 应用 |
-| **Microsoft Blog** | [blogs.microsoft.com](https://blogs.microsoft.com/) | 微软 AI 研究 |
+| **OpenAI Blog** | https://openai.com/blog | OpenAI 官方博客 |
+| **Google AI Blog** | https://blog.research.google | Google AI 团队 |
+| **DeepMind Blog** | https://deepmind.google/discover/blog | DeepMind 研究成果 |
+| **Meta AI Blog** | https://ai.meta.com/blog | Facebook AI 团队 |
+| **NVIDIA Blog** | https://blogs.nvidia.com/blog/category/deep-learning | 硬件加速、AI 应用 |
+| **Microsoft Blog** | https://blogs.microsoft.com | 微软 AI 研究 |
 
 ---
 
@@ -112,16 +112,16 @@ AI 领域 Twitter 为何重要：
 
 | 答主 | 链接 | 背景 |
 |-----|------|------|
-| **Hugging Face** | [zhihu.com/org/huggingface](https://www.zhihu.com/org/huggingface) | 官方号，工作日更新 |
-| **苏剑林** | [zhihu.com/people/su-jian-lin-22](https://www.zhihu.com/people/su-jian-lin-22) | 月之暗面，科学空间博主 |
-| **李沐** | [zhihu.com/people/mli65](https://www.zhihu.com/people/mli65) | 深度学习大牛 |
-| **李博杰** | [zhihu.com/people/li-bo-jie](https://www.zhihu.com/people/li-bo-jie) | 科大博士，前华为天少 |
-| **李 rumor** | [zhihu.com/people/rumor-lee](https://www.zhihu.com/people/rumor-lee) | 北航，美团 RLHF |
-| **田渊栋** | [zhihu.com/people/tian-yuan-dong](https://www.zhihu.com/people/tian-yuan-dong) | Meta FAIR 研究员 |
-| **苏洋** | [zhihu.com/people/soulteary](https://www.zhihu.com/people/soulteary) | 泛 AI 领域资讯 |
-| **何枝** | [zhihu.com/people/who-u](https://www.zhihu.com/people/who-u) | RLHF 教程火出圈 |
-| **白小鱼** | [zhihu.com/people/youngfish42](https://www.zhihu.com/people/youngfish42) | 联邦学习、LLM |
-| **东林钟声** | [zhihu.com/people/dong-lin-zhong-sheng-76](https://www.zhihu.com/people/dong-lin-zhong-sheng-76) | 华科博士，LLM+灵巧手 |
+| **Hugging Face** | https://www.zhihu.com/org/huggingface | 官方号，工作日更新 |
+| **苏剑林** | https://www.zhihu.com/people/su-jian-lin-22 | 月之暗面，科学空间博主 |
+| **李沐** | https://www.zhihu.com/people/mli65 | 深度学习大牛 |
+| **李博杰** | https://www.zhihu.com/people/li-bo-jie | 科大博士，前华为天少 |
+| **李 rumor** | https://www.zhihu.com/people/rumor-lee | 北航，美团 RLHF |
+| **田渊栋** | https://www.zhihu.com/people/tian-yuan-dong | Meta FAIR 研究员 |
+| **苏洋** | https://www.zhihu.com/people/soulteary | 泛 AI 领域资讯 |
+| **何枝** | https://www.zhihu.com/people/who-u | RLHF 教程火出圈 |
+| **白小鱼** | https://www.zhihu.com/people/youngfish42 | 联邦学习、LLM |
+| **东林钟声** | https://www.zhihu.com/people/dong-lin-zhong-sheng-76 | 华科博士，LLM+灵巧手 |
 
 ---
 
@@ -129,15 +129,26 @@ AI 领域 Twitter 为何重要：
 
 | Up 主 | 链接 | 内容 |
 |-----|------|------|
-| **跟李沐学AI** | [space.bilibili.com/1567748478](https://space.bilibili.com/1567748478) | 深度学习论文解读 |
-| **李宏毅** | [space.bilibili.com/5760446](https://space.bilibili.com/5760446) | 台湾科大，深度学习课程 |
-| **秋葉aaaki** | [space.bilibili.com/12566101](https://space.bilibili.com/12566101) | AI 绘图喂饭级教程 |
-| **ShusenWang** | [space.bilibili.com/1369507485](https://space.bilibili.com/1369507485) | 强化学习免费课 |
-| **花儿不哭** | [space.bilibili.com/5760446](https://space.bilibili.com/5760446) | RVC、GPT-sovits 作者 |
-| **五里墩茶社** | [space.bilibili.com/615957867](https://space.bilibili.com/615957867) | LLM 工具分享 |
-| **李自然说** | [space.bilibili.com/39089748](https://space.bilibili.com/39089748) | AI 连续创业者 |
-| **差评君** | [space.bilibili.com/19319172](https://space.bilibili.com/19319172) | AI 领域评测 |
-| **王树义老师** | [space.bilibili.com/314022607](https://space.bilibili.com/314022607) | AI 工具入门教程 |
+| **花儿不哭** | https://space.bilibili.com/5760446 | RVC、GPT-sovits 作者 |
+| **风信子的猫 Redamancy** | https://space.bilibili.com/241286257 | 数字人对话系统 Linly-Talker |
+| **李自然说** | https://space.bilibili.com/39089748 | AI 连续创业者 |
+| **差评君** | https://space.bilibili.com/19319172 | AI 领域评测和分享 |
+| **耿同学讲故事** | https://space.bilibili.com/1732848825 | 北航老哥，下饭利器 |
+| **机器人科学与技术** | https://space.bilibili.com/49975325 | 机器人 demo 分享 |
+| **图灵的猫** | https://space.bilibili.com/371846699 | 下饭视频 |
+| **小约翰可汗** | https://space.bilibili.com/23947287 | 下饭视频 |
+| **来自星星的何教授** | https://space.bilibili.com/1010101551 | 室温超导+学术八卦 |
+| **落英行者** | https://space.bilibili.com/393702473 | 尖端行业深度解析 |
+| **萌萌战队** | https://space.bilibili.com/357669580 | 空气动力学、激波 |
+| **二进制哈士奇** | https://space.bilibili.com/475312678 | 学术版 GPT 作者 |
+| **浪子之心科技** | https://space.bilibili.com/431556168 | 数字人、AIGC 开源项目 |
+| **李鲁鲁** | https://space.bilibili.com/1572312 | AIGC、LLM 角色扮演 |
+| **秋葉aaaki** | https://space.bilibili.com/12566101 | AI 绘图喂饭级教程 |
+| **五里墩茶社** | https://space.bilibili.com/615957867 | LLM 工具分享 |
+| **ShusenWang** | https://space.bilibili.com/1369507485 | 强化学习免费课 |
+| **王树义老师** | https://space.bilibili.com/314022607 | AI 工具入门教程 |
+| **霍华德vlog** | https://space.bilibili.com/295428344 | RWKV、泛 AI 信息 |
+| **跟李沐学AI** | https://space.bilibili.com/1567748478 | 深度学习论文解读 |
 
 ---
 
@@ -145,7 +156,7 @@ AI 领域 Twitter 为何重要：
 
 | Up 主 | 链接 | 内容 |
 |-----|------|------|
-| **李宏毅** | [youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ](https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ) | 台湾科大深度学习课程 |
+| **李宏毅** | https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ | 台湾科大深度学习课程 |
 
 ---
 
@@ -153,7 +164,7 @@ AI 领域 Twitter 为何重要：
 
 | 播客 | 链接 | 说明 |
 |-----|------|------|
-| **AI 局内人** | [xiaoyuzhoufm.com/podcast/643928f9](https://www.xiaoyuzhoufm.com/podcast/643928f99361a4e7c38a9555) | AI 行业讨论 |
+| **AI 局内人** | https://www.xiaoyuzhoufm.com/podcast/643928f99361a4e7c38a9555 | AI 行业讨论 |
 
 ---
 
@@ -161,10 +172,10 @@ AI 领域 Twitter 为何重要：
 
 | 频道 | 链接 | 说明 |
 |-----|------|------|
-| **ChatGPT/AI 新闻聚合** | [t.me/AI_News_CN](https://t.me/AI_News_CN) | 全网 AI 新闻汇集 |
-| **极客分享** | [t.me/geekshare](https://t.me/geekshare) | 高质量网站、工具、开源项目 |
-| **AI 探索指南** | [t.me/aigc1024](https://t.me/aigc1024) | ChatGPT、思维方式、知识拓展 |
-| **AI News** | [t.me/aigcnote](https://t.me/aigcnote) | AI 业界大新闻 |
+| **ChatGPT/AI 新闻聚合** | https://t.me/AI_News_CN | 全网 AI 新闻汇集 |
+| **极客分享** | https://t.me/geekshare | 高质量网站、工具、开源项目 |
+| **AI 探索指南** | https://t.me/aigc1024 | ChatGPT、思维方式、知识拓展 |
+| **AI News** | https://t.me/aigcnote | AI 业界大新闻 |
 
 ---
 
