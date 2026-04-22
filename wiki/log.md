@@ -4,6 +4,50 @@
 
 ---
 
+## [2026-04-22] ingest | 7篇新素材批量录入
+
+**素材处理**：
+- ✓ Clippings/YC 总裁开源了自己亲手写的 AI Agent 大脑，1 周就 1 万点赞。.md
+- ✓ Clippings/万字保姆级教程：Hermes+Kimi K2.6 打造7x24h Agent军团.md
+- ✓ Clippings/OpenClaw 养成路线图：从装完到用好的 8 个阶段.md
+- ✓ Clippings/分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。.md
+- ✓ Clippings/用WorkBuddy养出你的龙虾搭子！【附提示词】.md
+- ✓ Clippings/购买并部署OpenClaw应用镜像.md
+- ✓ Clippings/Hermes Agent 完整指南：从安装到进阶玩法，一篇搞定.md
+
+**新增页面（13个）**：
+
+**概念层** (4个)：
+- wiki/concepts/GBrain.md - YC总裁开源的Agent长期记忆系统
+- wiki/concepts/长期记忆.md - Agent持久记忆系统，三层架构
+- wiki/concepts/多Agent协同.md - 角色隔离+共享上下文+任务委派
+- wiki/concepts/横纵分析法.md - 深度研究框架
+
+**工具层** (3个)：
+- wiki/tools/GBrain.md - 部署方式与功能详解
+- wiki/tools/GStack.md - 编码Skill工作流，7万+Star
+- wiki/tools/WorkBuddy.md - 腾讯国产龙虾，微信集成
+
+**人物层** (4个)：
+- wiki/people/Garry Tan.md - YC总裁，GStack和GBrain作者
+- wiki/people/苍何.md - Hermes Agent深度实践者
+- wiki/people/数字生命卡兹克.md - 横纵分析法提出者
+- wiki/people/秋芝2046.md - WorkBuddy养成教程作者
+
+**实践层** (3个)：
+- wiki/practices/OpenClaw养成路线图.md - 8个阶段完整教程
+- wiki/practices/横纵分析法Prompt.md - 完整Prompt模板
+- wiki/practices/OpenClaw阿里云部署.md - 阼云官方部署指南
+
+**更新页面** (1个)：
+- wiki/tools/Hermes Agent.md - 补充多Agent军团、斜杠命令、迁移指南、文件结构
+
+**页面更新**：
+- wiki/index.md（+13条目，总页面数29）
+- wiki/log.md（本记录）
+
+---
+
 ## [2026-04-22] lint | MiniMax/Kimi 定价信息补充
 
 **操作类型**：数据补充与更新
@@ -313,8 +357,15 @@
 | 11 | OpenClaw 完全指南.pdf | paper | ○ 已索引 |
 | 12 | OpenClaw橙皮书.pdf | paper | ○ 已索引 |
 | 13 | OpenClaw蓝皮书.pdf | paper | ○ 已索引 |
+| 14 | YC总裁开源GBrain | article | ✓ 本次录入 |
+| 15 | Hermes+Kimi Agent军团教程 | article | ✓ 本次录入 |
+| 16 | OpenClaw养成路线图 | article | ✓ 本次录入 |
+| 17 | 深度研究Prompt横纵分析法 | article | ✓ 本次录入 |
+| 18 | WorkBuddy龙虾教程 | article | ✓ 本次录入 |
+| 19 | 阼云OpenClaw部署 | article | ✓ 本次录入 |
+| 20 | Hermes完整指南 | article | ✓ 本次录入（补充更新） |
 
-**进度**：10/13 完全录入 + 3 已索引 (100%)
+**进度**：17/20 完全录入 + 3 已索引 (100%)
 
 ---
 

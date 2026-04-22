@@ -4,21 +4,20 @@
   "title": "我现在是在 Obsidian 下使用 Claude。如果我在这里让你安装一些 skill，我在命令行...",
   "titleGenerationStatus": "failed",
   "createdAt": 1776857524025,
-  "updatedAt": 1776857541493,
-  "lastResponseAt": 1776857541493,
+  "updatedAt": 1776858426900,
+  "lastResponseAt": 1776858426900,
   "sessionId": "6de66288-7848-4430-84bf-73e38d28463b",
   "providerState": {
     "providerSessionId": "6de66288-7848-4430-84bf-73e38d28463b"
   },
-  "currentNote": "Clippings/YC 总裁开源了自己亲手写的 AI Agent 大脑，1 周就 1 万点赞。.md",
   "usage": {
     "model": "glm-5",
-    "inputTokens": 49972,
+    "inputTokens": 51205,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 49972,
-    "percentage": 25,
+    "contextTokens": 51205,
+    "percentage": 26,
     "contextWindowIsAuthoritative": true
   }
 }
