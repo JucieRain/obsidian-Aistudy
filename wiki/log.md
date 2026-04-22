@@ -4,6 +4,45 @@
 
 ---
 
+## [2026-04-23] ingest | 5篇素材批量录入（Typeless + OpenClaw三书）
+
+**操作类型**：素材录入
+**触发原因**：用户请求录入新素材和 PDF 转换的 Markdown
+
+**素材处理**：
+- ✓ Clippings/typeless安装与设置.md → articles/
+- ✓ Clippings/探索typeless核心功能.md → articles/
+- ✓ Clippings/papers/OpenClaw完全指南（花园版）.md（PDF 转换）
+- ✓ Clippings/papers/OpenClaw橙皮书-从入门到精通-v1.3.1.md（PDF 转换）
+- ✓ Clippings/papers/OpenClaw蓝皮书-1.0.0版.md（PDF 转换）
+
+**新增页面（3个）**：
+
+**人物层** (3个)：
+- wiki/people/花园老师.md - code秘密花园作者，花园版完全指南作者，7个Agent团队案例
+- wiki/people/花叔.md - 橙皮书作者，AI编程知识星球星主，命令速查表+Coding Plan对比
+- wiki/people/杨彧鑫AI.md - 蓝皮书作者，23个赚钱案例+10行业落地方案
+
+**更新页面（2个）**：
+- wiki/tools/Typeless.md - 补充安装步骤（macOS/Windows）、核心功能详解（AI自动编辑6项能力）
+- wiki/tools/OpenClaw.md - 补充核心数据、记忆系统、部署方式总览、PDF来源链接
+
+**页面更新**：
+- wiki/index.md（+3人物条目，总页面数34，素材数33文章+3PDF）
+- wiki/log.md（本记录）
+
+**覆盖内容**：
+
+| 工具/人物 | 补充内容 |
+|---------|---------|
+| Typeless | macOS 安装步骤、Windows 安装步骤、AI 自动编辑详解（移除填充词/移除重复/改口编辑/理解意图/自动格式化/不同应用语气） |
+| OpenClaw | GitHub 历史增速第一、四层记忆架构、向量记忆搜索、部署方式总览、花园版/橙皮书/蓝皮书来源 |
+| 花园老师 | 7个 Agent 团队（生图/资讯/开发/投资/社区/写作/智能专家），为什么不做全能 Agent |
+| 花叔 | 橙皮书 109 页、命令速查表、资源链接汇总、Coding Plan 对比 |
+| 杨彧鑫AI | 蓝皮书 189 页、23个赚钱案例、10行业落地方案 |
+
+---
+
 ## [2026-04-22] classify | 素材分类整理（第二批）
 
 **操作类型**：素材整理
