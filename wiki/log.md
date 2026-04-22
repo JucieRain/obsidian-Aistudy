@@ -4,6 +4,33 @@
 
 ---
 
+## [2026-04-22] lint | 主流模型版本修正
+
+**操作类型**：数据校验与修正
+**执行内容**：
+- 用户反馈模型版本信息过时
+- 通过 curl 获取官网 HTML shell（绕过 WebSearch/WebFetch API 错误）
+- 从 SEO meta 标签和文档页面确认最新版本
+- 更正版本：Kimi K2.6、MiniMax 2.7、GLM-5.1、Qwen3
+
+**版本确认来源**：
+| 模型 | 确认方式 | 版本号 |
+|-----|---------|-------|
+| Kimi | `<title>Kimi AI 官网 - K2.6 上线</title>` | K2.6 ✅ |
+| MiniMax | 官网 HTML shell grep | 2.7 ✅ |
+| GLM | docs.bigmodel.cn HTML shell grep | GLM-5.1 ✅ |
+| Qwen | tongyi.aliyun.com HTML shell grep | Qwen3 ✅ |
+
+**技术问题记录**：
+- WebSearch/WebFetch 工具遇到 API 错误：`model 'claude-haiku-4-5-20251001' is not supported`
+- 官网采用 JavaScript 动态渲染，curl 只能获取 HTML shell
+- Kimi 文档平台 (platform.kimi.com/docs) 可获取公告信息
+
+**修正页面**：
+- wiki/tools/主流模型汇总.md（更新版本表、添加版本确认说明）
+
+---
+
 ## [2026-04-22] query | 主流模型汇总页面创建
 
 **操作类型**：知识整理
