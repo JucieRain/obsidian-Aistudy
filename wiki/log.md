@@ -38,6 +38,8 @@
 | 12 | Clippings/papers/OpenClaw橙皮书.pdf | paper | 待处理 |
 | 13 | Clippings/papers/OpenClaw蓝皮书.pdf | paper | 待处理 |
 
+**素材已分类整理**：全部 markdown 文件已移动至 `Clippings/articles/`，PDF 文件在 `Clippings/papers/`
+
 ---
 
 *日志格式：## [日期] 操作类型 | 标题*

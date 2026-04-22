@@ -70,6 +70,7 @@
 - **素材总数**：Clippings/articles (10) + Clippings/papers (3) + Clippings/videos (0)
 - **已处理素材**：0
 - **待处理素材**：13
+- **素材已分类整理** ✓
 
 ---
 
