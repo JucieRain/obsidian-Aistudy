@@ -4,6 +4,33 @@
 
 ---
 
+## [2026-04-22] ingest | 第一批核心文章录入
+
+**素材**：
+- Clippings/articles/Obsidian + Claude Code 教程.md ✓
+- Clippings/articles/Claude Code 国内丝滑部署指南.md ✓
+- Clippings/articles/Hermes Agent 新手教程.md ✓
+
+**新增页面**：
+- wiki/concepts/LLM Wiki.md
+- wiki/concepts/第二大脑.md
+- wiki/tools/Claude Code.md
+- wiki/tools/Obsidian.md
+- wiki/tools/Hermes Agent.md
+- wiki/people/Karpathy.md
+
+**更新页面**：
+- wiki/index.md（+6 条目）
+- wiki/log.md
+
+**提取的关键信息**：
+- **概念**：LLM Wiki、第二大脑、RAG（对比）
+- **工具**：Claude Code、Obsidian、Hermes Agent、Web Clipper
+- **人物**：Karpathy
+- **方法论**：三层架构、三种操作、复利效应
+
+---
+
 ## [2026-04-22] init | 知识库初始化
 
 **操作类型**：系统初始化
@@ -16,7 +43,7 @@
 **当前状态**：
 - 目录结构完成 ✓
 - 规则文档完成 ✓
-- 待录入素材：13 个
+- Wiki 页面：6 个 ✓
 
 ---
 
@@ -24,9 +51,9 @@
 
 | 序号 | 素材路径 | 类型 | 状态 |
 |-----|---------|------|------|
-| 1 | Clippings/articles/Claude Code 国内丝滑部署指南.md | article | 待处理 |
-| 2 | Clippings/articles/Hermes Agent 新手教程.md | article | 待处理 |
-| 3 | Clippings/articles/Obsidian + Claude Code 教程.md | article | 待处理 |
+| 1 | Clippings/articles/Claude Code 国内丝滑部署指南.md | article | ✓ 已处理 |
+| 2 | Clippings/articles/Hermes Agent 新手教程.md | article | ✓ 已处理 |
+| 3 | Clippings/articles/Obsidian + Claude Code 教程.md | article | ✓ 已处理 |
 | 4 | Clippings/articles/OpenClaw集成飞书.md | article | 待处理 |
 | 5 | Clippings/articles/飞书云文档.md | article | 待处理 |
 | 6 | Clippings/articles/一定要用 Claude 管理 Obsidian.md | article | 待处理 |
@@ -38,7 +65,7 @@
 | 12 | Clippings/papers/OpenClaw橙皮书.pdf | paper | 待处理 |
 | 13 | Clippings/papers/OpenClaw蓝皮书.pdf | paper | 待处理 |
 
-**素材已分类整理**：全部 markdown 文件已移动至 `Clippings/articles/`，PDF 文件在 `Clippings/papers/`
+**进度**：3/13 已处理 (23%)
 
 ---
 
