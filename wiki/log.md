@@ -4,6 +4,36 @@
 
 ---
 
+## [2026-04-22] classify | 素材分类整理（第二批）
+
+**操作类型**：素材整理
+**触发原因**：发现根目录有 7 个未分类素材
+
+**分类判断**：
+
+| 文件名 | 判断依据 | 分类 |
+|-------|---------|------|
+| 磨砺你的思维。.md | source: obsidian.md 官网 | article |
+| Typeless Windows 应用发布说明.md | source: typeless.com 官网 | article |
+| OpenClaw在飞书和Telegram上养了12个AI员工.md | source: mp.weixin.qq.com 微信文章 | article |
+| Windows 系统安装指南 (CodeBuddy).md | source: codebuddy.cn 官方文档 | article |
+| Claw 远程控制 (CodeBuddy).md | source: codebuddy.cn 官方文档 | article |
+| 快速开始 (CodeBuddy).md | source: codebuddy.cn 官方文档 | article |
+| WorkBuddy 小程序简介 (CodeBuddy).md | source: codebuddy.cn 官方文档 | article |
+
+**分类移动**：
+- 7 个文件全部移动至 `Clippings/articles/`
+
+**目录状态**：
+- Clippings/ 根目录：已清空
+- Clippings/articles/：31 个文章
+
+**待处理**：
+- ⏳ Phase 2 内容提取（待用户确认是否继续）
+- ⏳ Phase 3 Wiki 更新（创建/更新相关页面）
+
+---
+
 ## [2026-04-22] ingest | 新增3篇官方文档素材
 
 **操作类型**：素材录入

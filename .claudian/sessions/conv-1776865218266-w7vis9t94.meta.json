@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776865218266-w7vis9t94",
+  "providerId": "claude",
+  "title": "整理一下未录入的素材",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776865218267,
+  "updatedAt": 1776865329684,
+  "lastResponseAt": 1776865329684,
+  "sessionId": "3337e1c9-a490-4dd1-9e65-4c32d8c7bbb4",
+  "providerState": {
+    "providerSessionId": "3337e1c9-a490-4dd1-9e65-4c32d8c7bbb4"
+  },
+  "usage": {
+    "model": "glm-5",
+    "inputTokens": 51782,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 51782,
+    "percentage": 26,
+    "contextWindowIsAuthoritative": true
+  }
+}
