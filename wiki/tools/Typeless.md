@@ -1,9 +1,11 @@
 ---
 title: Typeless
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 sources:
   - "[[Clippings/articles/Typeless Windows 应用发布说明.md]]"
+  - "[[Clippings/articles/typeless安装与设置.md]]"
+  - "[[Clippings/articles/探索typeless核心功能.md]]"
 tags: [工具, AI语音, 听写, 翻译]
 status: stable
 ---
@@ -17,8 +19,49 @@ status: stable
 | 资源 | 链接 |
 |-----|------|
 | **官网** | https://www.typeless.com |
-| **Windows 下载** | https://www.typeless.com/help/release-notes/windows |
+| **下载** | https://www.typeless.com/downloads |
+| **帮助文档** | https://www.typeless.com/help |
+| **Windows 发布说明** | https://www.typeless.com/help/release-notes/windows |
 | **定价** | Pro 订阅（推荐积分可抵扣） |
+
+## 安装步骤（macOS）
+
+### 下载与安装
+
+1. 访问 https://www.typeless.com/downloads 点击「Download for Mac」
+2. 双击 `Typeless.dmg` 打开
+3. 将 Typeless 图标拖到「应用程序」文件夹
+
+### 启动与登录
+
+- 从应用程序中打开 Typeless
+- 使用 Google 帐户或电子邮件地址登录
+- 私人测试版需输入邀请码激活
+
+### 系统权限配置
+
+**辅助功能访问**：
+- 在系统设置中启用 Typeless
+- 允许插入语音文字
+
+**麦克风权限**：
+- 点击「Allow」授予麦克风访问
+
+### 快捷键设置
+
+- 默认使用 **fn 键**（功能键）开始/停止听写
+- fn 键位于键盘左下角，几乎不与其他操作冲突
+- 可自定义更换快捷键
+
+## 安装步骤（Windows）
+
+1. 访问官网点击「立即下载」
+2. 双击安装包启动安装
+3. 勾选「我同意此协议」→ 下一步
+4. 选择安装路径 → 下一步
+5. 勾选「创建桌面快捷方式」→ 下一步
+6. 点击「安装」→ 完成
+7. 微信扫码登录即可使用
 
 ## 核心功能
 
@@ -28,6 +71,19 @@ status: stable
 - **边想边说**：按下快捷键开始说话，按下主快捷键（默认 Right Alt）结束
 - **AI 自动编辑**：实时将语音转化为润色后的文本
 - **个性化风格**：学习你的语调，适应你的写作风格（正式/随意/简洁/详细）
+
+### AI 自动编辑详解
+
+Typeless 的 AI 自动编辑能力包括：
+
+| 功能 | 说明 |
+|-----|------|
+| **移除填充词** | 自动移除「嗯」「啊」「你知道吗」等填充词，清晰专业 |
+| **移除重复词** | 检测并移除不必要的重复词语，简洁易懂 |
+| **自动编辑改口内容** | 识别中途纠正自己的情况，只保留最终表达，避免混乱 |
+| **理解意图** | 理解话语背后的含义，优化措辞提高清晰度和流畅性 |
+| **自动格式化** | 自动将口述的列表、步骤、要点整理成结构化文本 |
+| **不同应用不同语气** | 根据使用的应用（工作邮件/聊天/客服）调整语气和风格 |
 
 ### 翻译
 
@@ -99,3 +155,5 @@ status: stable
 ## 来源
 
 - [[Clippings/articles/Typeless Windows 应用发布说明.md]]
+- [[Clippings/articles/typeless安装与设置.md]]
+- [[Clippings/articles/探索typeless核心功能.md]]

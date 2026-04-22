@@ -1,34 +1,65 @@
 ---
 title: OpenClaw
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 sources:
   - "[[Clippings/articles/OpenClaw集成飞书.md]]"
   - "[[Clippings/articles/OpenClaw在飞书和Telegram上养了12个AI员工，它们还会自己开会.md]]"
+  - "[[Clippings/papers/OpenClaw完全指南（花园版）.md]]"
+  - "[[Clippings/papers/OpenClaw橙皮书-从入门到精通-v1.3.1.md]]"
+  - "[[Clippings/papers/OpenClaw蓝皮书-1.0.0版.md]]"
 tags: [工具, AI助手, 阿里云, 多Agent]
 status: stable
 ---
 
 # OpenClaw
 
-> 阿里云推出的 AI Agent 服务，支持多 Agent 路由、飞书/Telegram 多平台集成
+> 开源、自托管的 AI Agent 平台，GitHub 历史增速第一（超越 React 和 Linux）
+
+## 核心数据（截至 2026-03）
+
+| 指标 | 数据 |
+|-----|------|
+| **GitHub Stars** | 超越 Linux（历史增速第一） |
+| **Forks** | 53,232+ |
+| **贡献者** | 1,075+ |
+| **ClawHub Skills** | 13,700+ |
+| **内置 Skills** | 55 个 |
+| **支持消息渠道** | 20+ |
 
 ## 核心特性
 
-- **一键部署**：轻量应用服务器预装镜像
+- **一键部署**：轻量应用服务器预装镜像（阿里云/腾讯云/火山引擎等）
 - **多 Agent 路由**：每个 bot 绑定独立 Agent，真·独立人格
-- **跨平台集成**：飞书、Telegram、QQ、企业微信、钉钉
+- **跨平台集成**：飞书、Telegram、QQ、企业微信、钉钉、WhatsApp、Discord 等 20+ 平台
 - **Agent 通信**：agentToAgent 支持 Agent 间协作
-- **百炼 API**：支持 Coding Plan 和按量计费两种模式
-- **WebUI**：提供 Web 操作界面
+- **记忆系统**：四层记忆架构（SOUL/TOOLS/USER/Session），长期可持续
+- **技能生态**：ClawHub 13,700+ Skills，Skills.sh 87,000+ 跨平台技能
 
 ## 部署流程
 
-### 购买配置
+### 部署方式总览
 
-1. 购买轻量应用服务器（内存 ≥2GiB）
-2. 选择 OpenClaw 应用镜像
-3. 配置百炼 API Key
+| 平台 | 配置 | 价格 | 特点 |
+|-----|------|------|------|
+| **阿里云** | 2C2G | 9.9元/月 | 国内首选，镜像预装 |
+| **腾讯云** | 2C4G | ~17元/月 | 企微/QQ 生态 |
+| **火山引擎** | 2C4G | 9.9元/月 | 飞书深度集成 |
+| **扣子编程** | 无需服务器 | ¥49/月起 | 零门槛，内置模型 |
+| **本地 npm** | Node.js 22+ | 免费 | 开发者首选 |
+
+### 本地安装命令
+
+```bash
+# 安装 OpenClaw
+npm install -g openclaw@latest
+
+# 初始化并安装守护进程
+openclaw onboard --install-daemon
+
+# 诊断检查
+openclaw doctor
+```
 
 ### 飞书接入
 
@@ -39,8 +70,36 @@ status: stable
 **手动配置**：
 1. 创建飞书应用
 2. 配置权限（JSON 批量导入）
-3. 设置事件订阅
+3. 设置事件订阅（推荐长连接模式）
 4. 发布版本
+
+---
+
+## 记忆系统（核心特性）
+
+### 四层记忆架构
+
+OpenClaw 区别于普通 Chatbot 的核心能力是分层记忆：
+
+| 层级 | 文件 | 作用 |
+|-----|------|------|
+| **身份层** | SOUL.md | 定义 AI 的性格、语调、行为边界（不可变内核） |
+| **用户层** | USER.md | 用户的个人资料和偏好 |
+| **操作层** | AGENTS.md | 操作指南、工作流程、能力边界 |
+| **索引层** | MEMORY.md | 核心信息索引，保持精简（<40 行） |
+
+### 日志系统
+
+每日交互记录以 append-only 方式写入 `memory/YYYY-MM-DD.md` 文件。
+Session 启动时自动读取今天和昨天的日志，提供连续性上下文。
+
+### 向量记忆搜索
+
+支持两种检索策略：
+- **Embedding 向量**：语义搜索，模糊关联
+- **BM25 关键词**：精确匹配，TF-IDF 加权
+
+底层使用 SQLite-vec 进行向量存储和加速检索。
 
 ## API Key 配置
 
@@ -68,7 +127,9 @@ status: stable
 
 - [[Clippings/articles/OpenClaw集成飞书.md]]
 - [[Clippings/articles/OpenClaw在飞书和Telegram上养了12个AI员工，它们还会自己开会.md]]
-- [[Clippings/papers/OpenClaw 完全指南.pdf]]
+- [[Clippings/papers/OpenClaw完全指南（花园版）.md]] - 花园老师完整指南
+- [[Clippings/papers/OpenClaw橙皮书-从入门到精通-v1.3.1.md]] - 花叔橙皮书
+- [[Clippings/papers/OpenClaw蓝皮书-1.0.0版.md]] - 杨彧鑫AI蓝皮书
 
 ---
 

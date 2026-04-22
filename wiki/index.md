@@ -1,8 +1,8 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-04-22 | 总页面数：31
+> 最后更新：2026-04-23 | 总页面数：34
 > 知识库主题：AI 落地实践研究
-> 素材数：31文章 + 3PDF
+> 素材数：33文章 + 3PDF
 
 ---
 
@@ -32,7 +32,7 @@
 | [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图 | 1 |
 | [[tools/Hermes Agent]] | Nous Research开源Agent，74K+Stars，多平台+多Profile+持久记忆 | 4 |
 | [[tools/飞书]] | 字节跳动企业协作平台，AI Agent 接入能力 | 2 |
-| [[tools/OpenClaw]] | 阿里云 AI Agent 服务，飞书集成 | 1 |
+| [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统 | 5 |
 | [[tools/OpenClaw 系列文档]] | OpenClaw PDF 文档集索引 | 3 |
 | [[tools/Claudian]] | Claude Code 嵌入 Obsidian 的插件 | 1 |
 | [[tools/cc-switch]] | Claude Code 配置管理桌面应用 | 1 |
@@ -42,7 +42,7 @@
 | [[tools/GBrain]] | YC总裁开源的Agent长期记忆工具，9K+Star | 1 |
 | [[tools/GStack]] | YC总裁开源的编码Skill工作流，7万+Star | 1 |
 | [[tools/WorkBuddy]] | 腾讯国产龙虾，微信集成+定时任务+专家模式+Claw远程控制 | 6 |
-| [[tools/Typeless]] | AI语音听写工具，边想边说+翻译+个性化风格 | 1 |
+| [[tools/Typeless]] | AI语音听写工具，边想边说+翻译+个性化风格+安装教程 | 3 |
 
 ---
 
