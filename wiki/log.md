@@ -4,6 +4,41 @@
 
 ---
 
+## [2026-04-22] lint | 主流模型版本全面修正
+
+**操作类型**：数据校验与全面更新
+**执行内容**：
+- 用户反馈国际模型版本过时，要求全面核实
+- 通过 curl 获取官网新闻页面及 API 文档页面
+- 从静态内容中提取版本、发布时间、特点信息
+
+**版本更新确认**：
+
+| 模型厂商 | 原版本 | 新版本 | 发布时间 | 确认来源 |
+|---------|-------|--------|---------|---------|
+| **Anthropic** | Claude 4 Opus | **Opus 4.7** + **Mythos Preview** | 2026-04-16 | anthropic.com/news |
+| **Google** | Gemini 2.5 | **Gemini 3.1 Pro/3 Flash** | 2026-02/03 | ai.google.dev |
+| **OpenAI** | GPT-4.1/o1 | **o3** 确认存在 | 2026-03 | platform.openai.com/pricing |
+| **阿里云** | Qwen3 | **Qwen3.6-Max/Plus/Flash** | 2026-04 | help.aliyun.com |
+| **Kimi** | k2 | **K2.6** | 2026-04 | kimi.moonshot.cn |
+| **MiniMax** | abab6.5 | **MiniMax 2.7** | 2026-03 | minimaxi.com |
+| **智谱** | GLM-4 | **GLM-5.1/5.4** | 2026-03 | docs.bigmodel.cn |
+
+**新增内容**：
+- 每个模型添加发布时间列
+- 每个模型添加详细特点介绍
+- Claude Opus 4.7 特点：高级软件工程改进、更高分辨率视觉、网络安全防护
+- Gemini 3 系列特点：Deep Research、多模态、1M+ 上下文
+- Qwen3.6 特点：与 QwQ-Plus 推理模型
+- Kimi K2.6 特点：建站功能、Agent 集群、Claw 群组
+- 完整价格对比表：国际模型美元计价 + 国产模型人民币计价
+- 订阅方案对比表：国内外所有主流模型
+
+**页面更新**：
+- wiki/tools/主流模型汇总.md（全面重写）
+
+---
+
 ## [2026-04-22] lint | 主流模型版本修正
 
 **操作类型**：数据校验与修正
