@@ -4,20 +4,20 @@
   "title": "nihao",
   "titleGenerationStatus": "failed",
   "createdAt": 1775966842392,
-  "updatedAt": 1776830834091,
-  "lastResponseAt": 1776830834091,
+  "updatedAt": 1776831901550,
+  "lastResponseAt": 1776831901549,
   "sessionId": "792ae7c5-62b8-49e6-9897-776dc4b823a2",
   "providerState": {
     "providerSessionId": "792ae7c5-62b8-49e6-9897-776dc4b823a2"
   },
   "usage": {
     "model": "glm-5",
-    "inputTokens": 46983,
+    "inputTokens": 48464,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 46983,
-    "percentage": 23,
+    "contextTokens": 48464,
+    "percentage": 24,
     "contextWindowIsAuthoritative": true
   }
 }
