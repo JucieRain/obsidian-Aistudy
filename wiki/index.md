@@ -33,6 +33,7 @@
 | [[tools/cc-switch]] | Claude Code 配置管理桌面应用 | 1 |
 | [[tools/Obsidian Skills]] | 教 Claude 操作 Obsidian 的技能包 | 1 |
 | [[tools/Web Clipper]] | Obsidian 网页剪藏插件 | 2 |
+| [[tools/主流模型汇总]] | 2026年4月主流 AI 模型定价与订阅指南 | 官网 |
 
 ---
 
@@ -81,7 +82,7 @@
 
 - **素材总数**：10 文章 + 3 PDF
 - **已处理素材**：10/13 篇 (77%)
-- **Wiki 页面数**：17
+- **Wiki 页面数**：18
 - **概念页面**：3
 - **工具页面**：10
 - **人物页面**：1
