@@ -4,6 +4,39 @@
 
 ---
 
+## [2026-04-22] organize | 素材分类整理
+
+**操作类型**：素材整理
+**触发原因**：优化录入流程，发现根目录有未分类素材
+
+**分类移动**：
+
+| 原路径 | 分类 | 新路径 |
+|-------|------|-------|
+| Clippings/Hermes Agent 完整指南.md | article | Clippings/articles/ |
+| Clippings/购买并部署OpenClaw应用镜像.md | article | Clippings/articles/ |
+| Clippings/OpenClaw 养成路线图.md | article | Clippings/articles/ |
+| Clippings/深度研究Prompt.md | article | Clippings/articles/ |
+| Clippings/YC总裁开源GBrain.md | article | Clippings/articles/ |
+| Clippings/Hermes+Kimi Agent军团.md | article | Clippings/articles/ |
+| Clippings/WorkBuddy教程.md | article | Clippings/articles/ |
+
+**清理文件**：
+- 删除 `Clippings/papers/OpenClaw 完全指南.pdf.md`（空占位文件）
+
+**目录状态**：
+- Clippings/ 根目录：已清空（无未分类素材）
+- Clippings/articles/：17个文章
+- Clippings/papers/：3个PDF
+
+**规则更新**：
+- CLAUDE.md 3.1节录入流程优化为三阶段：
+  - Phase 1: 素材分类（扫描→判断→移动）
+  - Phase 2: 内容提取
+  - Phase 3: Wiki更新
+
+---
+
 ## [2026-04-22] ingest | 7篇新素材批量录入
 
 **素材处理**：

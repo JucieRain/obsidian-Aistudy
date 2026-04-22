@@ -68,25 +68,108 @@
 **执行步骤**：
 
 ```
-1. 扫描 Clippings/ 目录，识别未处理素材（未在 log.md 登记）
-2. 按类型排序，选择优先级最高的素材
-3. 读取素材全文，提取：
-   - 核心概念（≥2次提及的关键词）
-   - 提及的工具/产品
-   - 提及的人物
-   - 关键论点/观点
-   - 与现有知识的关联
-4. 更新/创建相关 wiki 页面：
-   - concepts/ 中创建概念页面
-   - tools/ 中创建工具页面
-   - people/ 中创建人物页面
-   - 更新相关页面的「参见」「相关」链接
-5. 更新 wiki/index.md：
-   - 添加新页面条目（含链接+一句话摘要）
-   - 更新页面数量统计
-6. 更新 wiki/log.md：
-   - 添加操作记录（格式见下）
-7. 移动已处理素材到 archive/（可选，确认后执行）
+┌─────────────────────────────────────────────────────────┐
+│                    Phase 1: 素材分类                      │
+├─────────────────────────────────────────────────────────┤
+│ 1. 扫描 Clippings/ 根目录，识别未分类素材                  │
+│    - 排除已归档子目录：articles/、videos/、papers/、others/│
+│    - 识别根目录下的 .md 和 .pdf 文件                       │
+│                                                          │
+│ 2. 对每个未分类素材进行分类判断                            │
+│    - 读取 frontmatter 或文件名                            │
+│    - 根据分类标准确定类型                                  │
+│    - 记录分类结果到临时列表                                │
+│                                                          │
+│ 3. 移动素材到对应子目录                                    │
+│    - article → Clippings/articles/                       │
+│    - video → Clippings/videos/                           │
+│    - paper → Clippings/papers/                           │
+│    - 其他 → Clippings/others/                            │
+├─────────────────────────────────────────────────────────┤
+│                    Phase 2: 内容提取                      │
+├─────────────────────────────────────────────────────────┤
+│ 4. 扫描已分类目录，识别未处理素材（未在 log.md 登记）       │
+│ 5. 按类型优先级排序：                                      │
+│    - articles/ → 最高（更新频率高）                       │
+│    - videos/ → 次优先                                     │
+│    - papers/ → 批量处理                                   │
+│                                                          │
+│ 6. 读取素材全文，提取：                                    │
+│    - 核心概念（≥2次提及的关键词）                          │
+│    - 提及的工具/产品                                       │
+│    - 提及的人物                                           │
+│    - 关键论点/观点                                         │
+│    - 与现有知识的关联                                      │
+├─────────────────────────────────────────────────────────┤
+│                    Phase 3: Wiki 更新                     │
+├─────────────────────────────────────────────────────────┤
+│ 7. 更新/创建相关 wiki 页面：                               │
+│    - concepts/ 中创建概念页面                              │
+│    - tools/ 中创建工具页面                                 │
+│    - people/ 中创建人物页面                                │
+│    - practices/ 中创建实践指南                             │
+│    - 更新相关页面的「参见」「相关」链接                     │
+│                                                          │
+│ 8. 更新 wiki/index.md：                                   │
+│    - 添加新页面条目（含链接+一句话摘要）                    │
+│    - 更新页面数量统计                                      │
+│                                                          │
+│ 9. 更新 wiki/log.md：                                     │
+│    - 添加操作记录（分类移动 + 内容录入）                    │
+│                                                          │
+│ 10. 移动已处理素材到 archive/（可选，确认后执行）          │
+└─────────────────────────────────────────────────────────┘
+```
+
+### 3.1.1 素材分类判断模板
+
+**分类判断逻辑**：
+
+```python
+def classify_material(file):
+    """素材分类判断"""
+    
+    # PDF 文件 → paper
+    if file.endswith('.pdf'):
+        return 'paper'
+    
+    # Markdown 文件
+    if file.endswith('.md'):
+        # 读取 frontmatter
+        frontmatter = read_frontmatter(file)
+        
+        # 有 source 且是网页链接 → article
+        if 'source' in frontmatter and frontmatter['source'].startswith('http'):
+            return 'article'
+        
+        # 文件名含视频关键词 → video
+        video_keywords = ['视频', '教程', '演示', '直播', 'YouTube', 'B站', '抖音']
+        if any(kw in file for kw in video_keywords):
+            return 'video'
+        
+        # 内容提及视频平台 → video
+        content = read_content(file)
+        if 'youtube.com' in content or 'bilibili.com' in content:
+            return 'video'
+        
+        # 默认 → article
+        return 'article'
+    
+    # 其他文件 → others
+    return 'others'
+```
+
+### 3.1.2 分类移动操作
+
+移动素材时：
+- **保持原文件名**：不修改
+- **创建目标目录**：如果不存在则创建
+- **记录移动日志**：在 log.md 中记录移动操作
+
+```bash
+# 移动示例
+mv "Clippings/未分类素材.md" "Clippings/articles/"
+mv "Clippings/某教程.pdf" "Clippings/papers/"
 ```
 
 ### 3.2 Query（查询流程）
