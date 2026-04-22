@@ -4,6 +4,34 @@
 
 ---
 
+## [2026-04-22] ingest | 新增3篇官方文档素材
+
+**操作类型**：素材录入
+**执行内容**：补充缺失的工具官方文档
+
+**新增素材**：
+- Clippings/articles/Claude Code 官方文档.md
+- Clippings/articles/cc-switch GitHub 项目.md
+- Clippings/articles/WorkBuddy 官网.md
+
+**更新页面**：
+- wiki/tools/Claude Code.md - 补充官方文档链接、Windows详细安装、第三方中转配置
+- wiki/tools/cc-switch.md - 补充多工具支持、详细功能说明、使用场景
+- wiki/tools/WorkBuddy.md - 补充官网下载入口、安装步骤
+
+**覆盖缺失内容**：
+| 工具 | 补充内容 |
+|-----|---------|
+| Claude Code | 官方文档链接、Windows安装详解、第三方中转配置 |
+| cc-switch | 多工具支持（Codex/OpenCode/OpenClaw/Gemini CLI）、使用场景 |
+| WorkBuddy | 官网下载入口、安装步骤 |
+
+**页面更新**：
+- wiki/index.md（素材数更新：21文章）
+- wiki/log.md（本记录）
+
+---
+
 ## [2026-04-22] organize | 素材分类整理
 
 **操作类型**：素材整理
@@ -398,7 +426,7 @@
 | 19 | 阼云OpenClaw部署 | article | ✓ 本次录入 |
 | 20 | Hermes完整指南 | article | ✓ 本次录入（补充更新） |
 
-**进度**：17/20 完全录入 + 3 已索引 (100%)
+**进度**：21/24 完全录入 + 3 已索引 (100%)
 
 ---
 

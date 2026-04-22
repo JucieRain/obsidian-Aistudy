@@ -3,7 +3,8 @@ title: WorkBuddy
 created: 2026-04-22
 updated: 2026-04-22
 sources:
-  - "[[Clippings/用WorkBuddy养出你的龙虾搭子！【附提示词】.md]]"
+  - "[[Clippings/articles/用WorkBuddy养出你的龙虾搭子！【附提示词】.md]]"
+  - "[[Clippings/articles/WorkBuddy 官网.md]]"
 tags:
   - tool
   - agent
@@ -16,31 +17,40 @@ status: stable
 
 > 腾讯开发的国产龙虾，给普通白领打造的Work Buddy，支持微信集成
 
-## 工具概览
+## 官方资源
 
-| 项目信息 | |
-|---------|---------|
-| **开发者** | 腾讯 |
-| **定位** | 给普通白领打造的国产自研龙虾 |
-| **特色** | 微信集成、定时任务、经验沉淀、专家模式 |
-| **官网** | https://www.codebuddy.cn/work/ |
+| 资源 | 链接 |
+|-----|------|
+| **官网下载** | https://www.codebuddy.cn/work/ |
+| **产品定位** | 门槛最低的国产龙虾 |
+
+## 安装方式
+
+### 下载安装
+
+1. 访问官网 https://www.codebuddy.cn/work/
+2. 点击下载按钮
+3. 双击安装包安装
+4. 打开软件即可使用
+
+### 微信连接
+
+最新版支持微信Clawbot，只需三步：
+1. 打开 WorkBuddy 软件
+2. 点击「连接微信clawbot」
+3. 扫码授权
+4. 在微信给龙虾发消息、语音、图片
+
+**最离谱的特性**：微信直接控制电脑干活。
 
 ## 核心功能
-
-### 微信 Clawbot 集成
-
-最新版支持微信连接，只需三步：
-1. 点击「连接微信clawbot」
-2. 扫码授权
-3. 直接在微信给龙虾发消息、语音、图片
-
-最离谱的特性：**微信直接控制电脑干活**。
 
 ### 国产模型内置
 
 内置多款国产模型，聊天界面可直接切换：
 - 注册送5000 credits
 - 用好几天都没用完
+- 无需配置API密钥
 
 ### 专家模式
 
@@ -158,5 +168,6 @@ status: stable
 
 ## 来源
 
-- [[Clippings/用WorkBuddy养出你的龙虾搭子！【附提示词】.md]]
+- [[Clippings/articles/用WorkBuddy养出你的龙虾搭子！【附提示词】.md]]
+- [[Clippings/articles/WorkBuddy 官网.md]]
 - 作者：秋芝2046

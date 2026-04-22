@@ -4,20 +4,20 @@
   "title": "我现在是在 Obsidian 下使用 Claude。如果我在这里让你安装一些 skill，我在命令行...",
   "titleGenerationStatus": "failed",
   "createdAt": 1776857524025,
-  "updatedAt": 1776864369385,
-  "lastResponseAt": 1776864369385,
+  "updatedAt": 1776864837954,
+  "lastResponseAt": 1776864837954,
   "sessionId": "6de66288-7848-4430-84bf-73e38d28463b",
   "providerState": {
     "providerSessionId": "6de66288-7848-4430-84bf-73e38d28463b"
   },
   "usage": {
     "model": "glm-5",
-    "inputTokens": 56593,
+    "inputTokens": 57653,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 56593,
-    "percentage": 28,
+    "contextTokens": 57653,
+    "percentage": 29,
     "contextWindowIsAuthoritative": true
   }
 }
