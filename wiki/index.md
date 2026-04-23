@@ -1,8 +1,8 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-04-23 | 总页面数：37
+> 最后更新：2026-04-23 | 总页面数：39
 > 知识库主题：AI 落地实践研究
-> 素材数：33文章 + 3PDF
+> 素材数：35文章 + 3PDF
 
 ---
 
@@ -19,6 +19,7 @@
 | [[concepts/长期记忆]] | Agent持久记忆系统，三层架构设计 | 2 |
 | [[concepts/多Agent协同]] | 多Agent分工合作，角色隔离+共享上下文+任务委派 | 1 |
 | [[concepts/横纵分析法]] | 数字生命卡兹克的深度研究框架，半小时建立陌生领域认知 | 1 |
+| [[concepts/Harness Engineering]] | Agent工程化框架，六大战场将大模型不确定性转化为可靠系统 | 1 |
 
 ---
 
@@ -32,7 +33,7 @@
 | [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图 | 1 |
 | [[tools/Hermes Agent]] | Nous Research开源Agent，74K+Stars，多平台+多Profile+持久记忆 | 4 |
 | [[tools/飞书]] | 字节跳动企业协作平台，AI Agent 接入能力 | 2 |
-| [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统 | 5 |
+| [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统+省钱安全指南 | 6 |
 | [[tools/OpenClaw 系列文档]] | OpenClaw PDF 文档集索引 | 3 |
 | [[tools/Claudian]] | Claude Code 嵌入 Obsidian 的插件 | 1 |
 | [[tools/cc-switch]] | Claude Code 配置管理桌面应用 | 1 |
@@ -56,7 +57,7 @@
 | [[people/Garry Tan]] | YC总裁兼CEO，GStack和GBrain开源项目作者 | 1 |
 | [[people/苍何]] | AI技术博主，Hermes Agent深度实践者，521篇原创 | 1 |
 | [[people/数字生命卡兹克]] | 横纵分析法提出者，开源Prompt和Skill作者 | 1 |
-| [[people/秋芝2046]] | AI技术博主，WorkBuddy养成教程作者 | 1 |
+| [[people/秋芝2046]] | AI技术博主，WorkBuddy养成教程+OpenClaw省钱安全指南作者 | 2 |
 | [[people/俊哥AI副业]] | OpenClaw多Agent实践者，12个AI员工配置教程 | 1 |
 | [[people/花园老师]] | code秘密花园作者，OpenClaw完全指南（花园版）作者 | 1 |
 | [[people/花叔]] | OpenClaw橙皮书作者，AI编程知识星球星主 | 1 |
@@ -64,6 +65,7 @@
 | [[people/数字牧游人]] | B站UP主，普通人视角切入AI工作方式思考 | 用户推荐 |
 | [[people/第四种黑猩猩CHIMP]] | B站UP主，AI入门科普，通俗易懂 | 用户推荐 |
 | [[people/珍妮丁丁AI说]] | B站UP主，AI应用场景分享，接地气 | 用户推荐 |
+| [[people/真理非著名不专业混子工程师]] | 知乎博主，Harness Engineering概念提出者 | 1 |
 
 ---
 
@@ -106,12 +108,12 @@
 
 ## 统计
 
-- **素材总数**：33 文章 + 3 PDF
-- **已处理素材**：33/36 篇 (92%)
-- **Wiki 页面数**：37
-- **概念页面**：7
+- **素材总数**：35 文章 + 3 PDF
+- **已处理素材**：35/38 篇 (92%)
+- **Wiki 页面数**：39
+- **概念页面**：8
 - **工具页面**：15
-- **人物页面**：12
+- **人物页面**：13
 - **实践页面**：8
 - **综合页面**：1
 

@@ -4,6 +4,42 @@
 
 ---
 
+## [2026-04-23] ingest | 2篇新素材录入（OpenClaw省钱安全 + Harness Engineering）
+
+**操作类型**：素材录入
+**触发原因**：用户请求录入最新素材
+
+**素材处理**：
+- ✓ Clippings/Openclaw养龙虾秘籍大公开！【安全+省钱】.md → articles/（秋芝2046公众号）
+- ✓ Clippings/Harness Engineering：Agent开发的关键战场.md → articles/（知乎文章）
+
+**新增页面（2个）**：
+
+**概念层** (1个)：
+- wiki/concepts/Harness Engineering.md - Agent工程化框架，六大战场，三大核心价值
+
+**人物层** (1个)：
+- wiki/people/真理非著名不专业混子工程师.md - Harness Engineering概念提出者，知乎博主
+
+**更新页面（2个）**：
+- wiki/tools/OpenClaw.md - 补充养龙虾省钱指南（上下文瘦身/模型混搭/本地模型）+安全指南（内外防护）
+- wiki/people/秋芝2046.md - 补充 OpenClaw 省钱安全教程作为贡献
+
+**页面更新**：
+- wiki/index.md（+2条目，总页面数39，素材数35文章+3PDF）
+- wiki/log.md（本记录）
+
+**覆盖内容**：
+
+| 页面 | 补充内容 |
+|-----|---------|
+| OpenClaw | 省钱三大妙招（上下文瘦身四步法、模型混搭三档分类、本地模型推荐硬件）、安全内外防护（对外三件事+对内三件事）、长期建议 |
+| Harness Engineering | 定义、与传统软件工程区别、三大核心价值、六大战场详解、业界标杆案例（Cursor/Claude Code/GitHub Copilot/LangGraph）、当前挑战与未来趋势 |
+| 秋芝2046 | 新增 OpenClaw 省钱安全教程贡献 |
+| 真理非著名不专业混子工程师 | 新人物页面，Harness Engineering 概念提出者 |
+
+---
+
 ## [2026-04-23] update | AI信息源推荐UP主补充
 
 **操作类型**：内容更新

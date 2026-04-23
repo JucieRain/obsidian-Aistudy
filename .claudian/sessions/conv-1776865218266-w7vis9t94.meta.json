@@ -4,20 +4,20 @@
   "title": "整理一下未录入的素材",
   "titleGenerationStatus": "failed",
   "createdAt": 1776865218267,
-  "updatedAt": 1776911727843,
-  "lastResponseAt": 1776911727843,
+  "updatedAt": 1776945466575,
+  "lastResponseAt": 1776945466575,
   "sessionId": "3337e1c9-a490-4dd1-9e65-4c32d8c7bbb4",
   "providerState": {
     "providerSessionId": "3337e1c9-a490-4dd1-9e65-4c32d8c7bbb4"
   },
   "usage": {
     "model": "glm-5",
-    "inputTokens": 65263,
+    "inputTokens": 69675,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 65263,
-    "percentage": 33,
+    "contextTokens": 69675,
+    "percentage": 35,
     "contextWindowIsAuthoritative": true
   }
 }
