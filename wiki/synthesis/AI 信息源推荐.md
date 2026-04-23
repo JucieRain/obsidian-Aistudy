@@ -131,12 +131,12 @@ https://readwise.io/twitter_leaderboard?threads - 热门推文合集
 
 > 对普通人 AI 入门和思考工作方式有非常大的帮助
 
-| Up 主            | 链接                                                                               | 内容                       |
-| --------------- | -------------------------------------------------------------------------------- | ------------------------ |
-| **秋芝2046**      | https://space.bilibili.com/385670211?spm_id_from=333.1387.follow.user_card.click | AI 工具实践教程，WorkBuddy 龙虾养成 |
-| **数字牧游人**       | https://search.bilibili.com/uploader?keyword=数字牧游人                               | AI 工作方式思考，普通人视角切入        |
-| **第四种黑猩猩CHIMP** | https://space.bilibili.com/3546830396721763?spm_id_from=333.337.0.0              | AI 入门科普，通俗易懂             |
-| **珍妮丁丁AI说**     | https://search.bilibili.com/uploader?keyword=珍妮丁丁AI说                             | AI 应用场景分享，接地气            |
+| Up 主            | 链接                                                                                    | 内容                       |
+| --------------- | ------------------------------------------------------------------------------------- | ------------------------ |
+| **秋芝2046**      | https://space.bilibili.com/385670211?spm_id_from=333.1387.follow.user_card.click      | AI 工具实践教程，WorkBuddy 龙虾养成 |
+| **数字牧游人**       | https://space.bilibili.com/4848323?spm_id_from=333.337.search-card.all.click          | AI 工作方式思考，普通人视角切入        |
+| **第四种黑猩猩CHIMP** | https://space.bilibili.com/3546830396721763?spm_id_from=333.337.0.0                   | AI 入门科普，通俗易懂             |
+| **珍妮丁丁AI说**     | https://space.bilibili.com/3546662351931696?spm_id_from=333.337.search-card.all.click | AI 应用场景分享，接地气            |
 
 ### 技术深度
 
