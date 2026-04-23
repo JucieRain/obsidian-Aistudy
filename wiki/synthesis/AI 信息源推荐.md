@@ -1,7 +1,7 @@
 ---
 title: AI 信息源推荐
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 sources:
   - "[[Clippings/articles/优质AI信息源推荐.md]]"
 tags: [综合, 信息源, 学习资源]
@@ -127,6 +127,19 @@ https://readwise.io/twitter_leaderboard?threads - 热门推文合集
 
 ## B站 Up 主
 
+### AI入门与工作方式思考 ⭐
+
+> 对普通人 AI 入门和思考工作方式有非常大的帮助
+
+| Up 主 | 链接 | 内容 |
+|-----|------|------|
+| **秋芝2046** | https://space.bilibili.com/3493274278238998 | AI 工具实践教程，WorkBuddy 龙虾养成 |
+| **数字牧游人** | B站搜索 | AI 工作方式思考，普通人视角切入 |
+| **第四种黑猩猩CHIMP** | B站搜索 | AI 入门科普，通俗易懂 |
+| **珍妮丁丁AI说** | B站搜索 | AI 应用场景分享，接地气 |
+
+### 技术深度
+
 | Up 主 | 链接 | 内容 |
 |-----|------|------|
 | **花儿不哭** | https://space.bilibili.com/5760446 | RVC、GPT-sovits 作者 |
@@ -192,6 +205,10 @@ https://readwise.io/twitter_leaderboard?threads - 热门推文合集
 ## 参见
 
 - [[people/Karpathy]]
+- [[people/秋芝2046]]
+- [[people/数字牧游人]]
+- [[people/第四种黑猩猩CHIMP]]
+- [[people/珍妮丁丁AI说]]
 - [[tools/Claude Code]]
 
 ## 来源
