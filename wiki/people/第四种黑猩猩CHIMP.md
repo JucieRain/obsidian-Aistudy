@@ -15,6 +15,7 @@ status: stable
 ## 身份
 
 - **B站**：第四种黑猩猩CHIMP
+- **链接**：https://search.bilibili.com/uploader?keyword=第四种黑猩猩
 
 ## 内容特点
 

@@ -15,6 +15,7 @@ status: stable
 ## 身份
 
 - **B站**：珍妮丁丁AI说
+- **链接**：https://search.bilibili.com/uploader?keyword=珍妮丁丁AI说
 
 ## 内容特点
 
