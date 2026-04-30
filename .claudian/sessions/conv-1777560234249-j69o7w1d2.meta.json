@@ -4,19 +4,19 @@
   "title": "帮我录入一下最近几个文档",
   "titleGenerationStatus": "failed",
   "createdAt": 1777560234254,
-  "updatedAt": 1777561152963,
-  "lastResponseAt": 1777561152963,
+  "updatedAt": 1777561446941,
+  "lastResponseAt": 1777561446941,
   "sessionId": "5e7ec085-85a3-4e9f-9068-d6444a75d18d",
   "providerState": {
     "providerSessionId": "5e7ec085-85a3-4e9f-9068-d6444a75d18d"
   },
   "usage": {
     "model": "glm-5",
-    "inputTokens": 54117,
+    "inputTokens": 54786,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 54117,
+    "contextTokens": 54786,
     "percentage": 27,
     "contextWindowIsAuthoritative": true
   }
