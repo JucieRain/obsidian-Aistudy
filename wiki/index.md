@@ -34,7 +34,7 @@
 |-----|------|-------|
 | [[tools/Claude Code]] | Anthropic 终端 AI 编程助手，LLM Wiki 核心工具 | 2 |
 | [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图，AI操作系统视角，CLI能力 | 4 |
-| [[tools/Hermes Agent]] | Nous Research开源Agent，74K+Stars，多平台+多Profile+持久记忆+MemOS插件+五大配置 | 6 |
+| [[tools/Hermes Agent]] | Nous Research开源Agent，10万+Stars，多平台+多Profile+持久记忆+MemOS插件+五大配置 | 6 |
 | [[tools/飞书]] | 字节跳动企业协作平台，AI Agent 接入能力 | 2 |
 | [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统+省钱安全指南 | 6 |
 | [[tools/OpenClaw 系列文档]] | OpenClaw PDF 文档集索引 | 3 |

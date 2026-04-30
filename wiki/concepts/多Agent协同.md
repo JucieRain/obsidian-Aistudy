@@ -129,7 +129,7 @@ hermes profile create test-director
 
 - [[concepts/Agent]] - Agent基础概念
 - [[concepts/长期记忆]] - Agent记忆系统
-- [[concepts/Honcho]] - Hermes共享记忆组件
+- [[tools/Hermes Agent]] - Honcho 是 Hermes 的共享记忆组件
 
 ## 参见
 

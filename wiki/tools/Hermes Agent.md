@@ -22,7 +22,8 @@ status: stable
 | 项目信息 | |
 |---------|---------|
 | **开发者** | Nous Research |
-| **GitHub Stars** | 74K+ |
+| **GitHub Stars** | 10万+ |
+> — Clippings/articles/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了。.md, L30
 | **最新版本** | v0.8.0 |
 | **协议** | MIT |
 | **定位** | 模型无关 + 多平台 + 持久记忆 + 自进化 |
