@@ -1,13 +1,15 @@
 ---
 title: Hermes Agent
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-30
 sources:
   - "[[Clippings/articles/Hermes Agent 新手教程.md]]"
   - "[[Clippings/articles/Hermes + 飞书踩坑修复.md]]"
   - "[[Clippings/万字保姆级教程：Hermes+Kimi K2.6 打造7x24h Agent军团.md]]"
   - "[[Clippings/Hermes Agent 完整指南：从安装到进阶玩法，一篇搞定.md]]"
-tags: [工具, Agent, NousResearch, 飞书]
+  - "[[Clippings/articles/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了]]"
+  - "[[Clippings/articles/装完 Hermes 一定要配置这五套系统，秒变满配版，能力提升数倍不止]]"
+tags: [工具, Agent, NousResearch, 飞书, MemOS]
 status: stable
 ---
 
@@ -163,6 +165,65 @@ hermes claw migrate --preset user-data
 迁移内容：人格、记忆、技能、命令审批白名单、API Keys、TTS资源。
 迁移后OpenClaw原始数据不删除。
 
+## 进阶配置：五大模块
+
+裸装 Hermes 和满配 Hermes 完全是两种工具。五大配置模块：
+
+| 模块 | 内容 | 效果 |
+|-----|------|------|
+| 身份与记忆 | SOUL.md、Hindsight | 让它知道你是谁 |
+| 感知能力 | 内容抓取工具（Jina Reader、Crawl4 AI） | 让它读懂全网 |
+| 表达能力 | 语音+图片生成（Whisper、Fal.ai） | 让它能说能画 |
+| 效率与成本 | Tokscale、RTK | Token管控 |
+| 生态导航 | awesome-hermes-agent | 一站式资源 |
+
+### Hindsight 记忆系统
+
+替换内置 MEMORY：
+```bash
+hermes memory setup
+# 选择 hindsight
+```
+
+对比：内置 ≈2200字符硬上限 → Hindsight 无上限、知识图谱组织
+
+### Token 管控工具
+
+| 工具 | 功能 |
+|-----|------|
+| **Tokscale** | 实时 Token/成本监控 TUI |
+| **RTK** | Rust Token Killer，减少60-90% Token |
+| **hermes-hudui** | 按模型/组件/会话深度拆解成本 |
+
+详见 [[practices/Hermes五大配置模块]]
+
+## MemOS 记忆插件
+
+记忆张量 MemTensor 团队推出的本地记忆插件：
+
+### 核心能力
+
+- **智能去重**：不是文本比对，是 LLM 判断重复/更新/全新
+- **混合检索**：全文搜索 + 向量语义搜索
+- **多Agent协同**：同一机器和跨机器两层协同
+
+### 对比原生
+
+| 维度 | Hermes 原生 | MemOS 插件 |
+|-----|-------------|-----------|
+| 写入 | Hermes认为重要才写 | 自动提取实体/事实/关系 |
+| 检索 | SQLite文本匹配 | 混合检索引擎 |
+| 协同 | 单Agent | 多Agent共享记忆 |
+
+安装：
+```bash
+curl -fsSL https://raw.githubusercontent.com/MemTensor/MemOS/openclaw-local-plugin-20260408/apps/memos-local-plugin/install.sh | bash
+```
+
+管理面板：http://127.0.0.1:18901
+
+详见 [[tools/MemOS]]
+
 ## 常见问题速查
 
 | 问题 | 解决 |
@@ -174,6 +235,7 @@ hermes claw migrate --preset user-data
 | OAuth过期 | 重新授权 |
 | 上下文溢出 | 清理会话或换大模型 |
 | Subagent超时 | 增加超时时间 |
+| 记忆乱 | 安装 MemOS 插件做智能去重 |
 
 诊断命令：`hermes doctor`（解决80%问题）
 
@@ -196,9 +258,13 @@ hermes claw migrate --preset user-data
 - [[tools/Claude Code]] - 开发Agent可调用
 - [[tools/飞书]] - 消息渠道
 - [[tools/OpenClaw]] - 前代产品（可迁移）
+- [[tools/MemOS]] - 记忆插件，智能去重+混合检索
 - [[concepts/Agent]] - Agent基础概念
 - [[concepts/多Agent协同]] - 军团架构详解
 - [[concepts/长期记忆]] - Honcho记忆系统
+- [[people/逛逛]] - MemOS插件推荐者
+- [[people/科技君]] - 五大配置模块教程作者
+- [[practices/Hermes五大配置模块]] - 进阶配置指南
 
 ## 来源
 
@@ -206,3 +272,5 @@ hermes claw migrate --preset user-data
 - [[Clippings/articles/Hermes + 飞书踩坑修复.md]]
 - [[Clippings/万字保姆级教程：Hermes+Kimi K2.6 打造7x24h Agent军团.md]]
 - [[Clippings/Hermes Agent 完整指南：从安装到进阶玩法，一篇搞定.md]]
+- [[Clippings/articles/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了]]
+- [[Clippings/articles/装完 Hermes 一定要配置这五套系统，秒变满配版，能力提升数倍不止]]

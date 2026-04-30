@@ -4,6 +4,64 @@
 
 ---
 
+## [2026-04-30] ingest | 6篇新素材录入（组织转型 + Obsidian + Hermes + LLM Wiki维护）
+
+**操作类型**：素材录入
+**触发原因**：用户请求录入最新素材
+
+**素材处理**：
+- ✓ Clippings/组织级AI软件工程转型：不仅是新工具，更是新组织.md → articles/（知乎文章）
+- ✓ Clippings/Obsidian x Agent 终极指南，从零打造个人 Agent 系统.md → articles/（空格丶公众号）
+- ✓ Clippings/Obsidian Cli 基础使用教程 AI化知识管理全过程.md → articles/（ShikiLab公众号）
+- ✓ Clippings/llm Wiki 养了三周，开始出毛病了.md → articles/（AI赋能说公众号）
+- ✓ Clippings/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了。.md → articles/（逛逛公众号）
+- ✓ Clippings/装完 Hermes 一定要配置这五套系统，秒变满配版，能力提升数倍不止.md → articles/（科技君公众号）
+
+**新增页面（17个）**：
+
+**概念层** (3个)：
+- wiki/concepts/知识漂移.md - Wiki与原文脱节现象，三个毛病三个解法
+- wiki/concepts/组织级AI转型.md - 一把手工程，烧token策略，全员覆盖
+- wiki/concepts/Spec-Driven Development.md - 规约驱动开发，先写规约再让Agent生成
+
+**工具层** (2个)：
+- wiki/tools/MemOS.md - 记忆张量团队开源记忆系统，智能去重+混合检索
+- wiki/tools/qmd.md - 本地Markdown搜索引擎，为LLM Wiki提供检索
+
+**人物层** (6个)：
+- wiki/people/空格丶.md - AI生产力专栏作者，Obsidian作为AI操作系统视角
+- wiki/people/ShikiLab.md - Obsidian知识管理实践者，《上头Obsidian》作者
+- wiki/people/AI赋能说.md - LLM Wiki实践者，知识漂移问题发现者
+- wiki/people/逛逛.md - GitHub开源推荐博主，MemOS插件推荐者
+- wiki/people/科技君.md - Hermes Agent进阶配置专家
+- wiki/people/FusionCID学习AI应用随笔.md - 组织级AI转型专家
+
+**实践层** (3个)：
+- wiki/practices/Obsidian CLI配置指南.md - Obsidian v1.12 CLI + Claude Code + MiniMax配置
+- wiki/practices/Hermes五大配置模块.md - 身份记忆/感知能力/表达能力/效率成本/生态导航
+- wiki/practices/LLM Wiki维护经验.md - 三周实践经验，体检机制设计
+
+**更新页面（4个）**：
+- wiki/concepts/LLM Wiki.md - 补充实践经验、三个毛病三个解法、知识漂移
+- wiki/concepts/长期记忆.md - 补充 MemOS 智能去重+混合检索
+- wiki/tools/Obsidian.md - 补充 AI操作系统视角、CLI能力、Karpathy三件套
+- wiki/tools/Hermes Agent.md - 补充 MemOS插件、五大配置模块、Token管控工具
+
+**页面更新**：
+- wiki/index.md（+17条目，总页面数56，素材数41文章+3PDF）
+- wiki/log.md（本记录）
+
+**覆盖内容**：
+
+| 页面 | 补充内容 |
+|-----|---------|
+| LLM Wiki | 实践经验（三个毛病：漂移/孤岛/找不到）、三个解法（溯源/体检/搜索）、AI赋能说贡献 |
+| 长期记忆 | MemOS智能去重机制、混合检索引擎、预检索注入、与Hindsight对比 |
+| Obsidian | AI操作系统视角、CLI能力、URI Scheme、Karpathy三件套、AI工作桌类比 |
+| Hermes Agent | MemOS记忆插件、五大配置模块、Hindsight记忆系统、Token管控（Tokscale/RTK） |
+
+---
+
 ## [2026-04-23] ingest | 2篇新素材录入（OpenClaw省钱安全 + Harness Engineering）
 
 **操作类型**：素材录入

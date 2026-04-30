@@ -1,9 +1,10 @@
 ---
 title: LLM Wiki
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-30
 sources:
   - "[[Clippings/articles/Obsidian + Claude Code 教程.md]]"
+  - "[[Clippings/articles/llm Wiki 养了三周，开始出毛病了]]"
   - "[Karpathy Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)"
 tags: [概念, 知识管理, Karpathy, 方法论]
 status: stable
@@ -97,14 +98,47 @@ status: stable
 | 读书笔记 | 每章录入，自动建人物/主题页面 |
 | 学习新领域 | 话题拆解，概念页面导航 |
 
+## 实践经验：三个毛病
+
+三周实践后发现的问题（来源：AI赋能说）：
+
+| 毛病 | 表现 | 根因 |
+|-----|------|------|
+| **漂移** | Wiki页面和原文不一致 | AI摘要是有损压缩，每次更新都可能引入偏差 |
+| **孤岛** | 有些页面没人引用 | 没有主动关联机制 |
+| **找不到** | AI忘记早期内容 | Wiki超过50页，index.md太长，效率下降 |
+
+详见 [[concepts/知识漂移]]
+
+## 实践经验：三个解法
+
+| 解法 | 内容 |
+|-----|------|
+| **溯源** | 每个关键事实标注来源行号（不是文件名） |
+| **体检** | 定期检查矛盾/过时/孤岛/断链/漂移（每周常规+每月深度） |
+| **搜索** | Wiki超过50页后需要搜索工具（[[tools/qmd]]） |
+
+详见 [[practices/LLM Wiki维护经验]]
+
+## 核心认知
+
+- Human owns verification（人拥有验证权）
+- AI是园丁，可以浇水除草
+- 但种什么花、留哪棵——人说了算
+
 ## 参见
 
 - [[people/Karpathy]]
+- [[people/AI赋能说]] - 发现问题并提出解法
 - [[concepts/第二大脑]]
+- [[concepts/知识漂移]] - 漂移问题详解
+- [[tools/qmd]] - 本地Markdown搜索引擎
 - [[tools/Claude Code]]
 - [[tools/Obsidian]]
+- [[practices/LLM Wiki维护经验]]
 
 ## 来源
 
 - [[Clippings/articles/Obsidian + Claude Code 教程.md]]
+- [[Clippings/articles/llm Wiki 养了三周，开始出毛病了]]
 - [Karpathy Gist 规则文档](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
