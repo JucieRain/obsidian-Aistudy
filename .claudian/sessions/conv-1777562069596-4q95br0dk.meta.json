@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777562069596-4q95br0dk",
+  "providerId": "claude",
+  "title": "帮我审视一下这个问题：基于当前的一些文档内容，在 Hermes 上，如果对它的记忆或者基础能力进行改...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777562069597,
+  "updatedAt": 1777562132818,
+  "lastResponseAt": 1777562132818,
+  "sessionId": "6146bf5b-a1d3-4e95-82fd-936eea6ccf27",
+  "providerState": {
+    "providerSessionId": "6146bf5b-a1d3-4e95-82fd-936eea6ccf27"
+  },
+  "usage": {
+    "model": "glm-5",
+    "inputTokens": 53421,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 53421,
+    "percentage": 27,
+    "contextWindowIsAuthoritative": true
+  }
+}

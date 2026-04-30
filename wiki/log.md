@@ -36,6 +36,39 @@
 
 ---
 
+## [2026-04-30] lint-fix | 执行修复（全部完成）
+
+**操作类型**：Lint 问题修复
+**触发原因**：用户确认立即执行
+
+**修复内容**：
+
+| 序号 | 修复动作 | 结果 |
+|-----|---------|------|
+| 1 | 创建 `wiki/concepts/Skill.md` | ✅ 已创建，含来源标注 L45-50 |
+| 2 | Honcho 断链修复 | ✅ 改为指向 [[tools/Hermes Agent]] |
+| 3 | Hermes Star 数更新 | ✅ 改为"10万+"，添加来源行号 L30 |
+
+**新增文件**：
+- wiki/concepts/Skill.md - Agent 可复用能力单元
+
+**修改文件**：
+- wiki/concepts/多Agent协同.md - Honcho 链接修复
+- wiki/tools/Hermes Agent.md - Star 数更新+来源标注
+- wiki/index.md - Star 数更新+新增 Skill 页面
+- wiki/lint-report-2026-04-30.md - 标记修复完成
+
+**页面更新**：
+- wiki/index.md（+1 条目，总页面数 57，概念页面 12）
+
+**溯源标注示例**（新规则首次应用）：
+```markdown
+| **GitHub Stars** | 10万+ |
+> — Clippings/articles/给 10 万 Star 的 Hermes..., L30
+```
+
+---
+
 ## [2026-04-30] system | 知识库改造：防漂移机制 + 调度系统
 
 **操作类型**：系统架构升级
