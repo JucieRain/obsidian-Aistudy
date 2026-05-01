@@ -4,8 +4,8 @@
   "title": "帮我审视一下这个问题：基于当前的一些文档内容，在 Hermes 上，如果对它的记忆或者基础能力进行改...",
   "titleGenerationStatus": "failed",
   "createdAt": 1777562069597,
-  "updatedAt": 1777638297751,
-  "lastResponseAt": 1777638297751,
+  "updatedAt": 1777639145188,
+  "lastResponseAt": 1777639145188,
   "sessionId": "4f357185-b3b9-4487-ab11-1031949df699",
   "providerState": {
     "providerSessionId": "4f357185-b3b9-4487-ab11-1031949df699",
@@ -15,12 +15,12 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 89541,
+    "inputTokens": 91140,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 89541,
-    "percentage": 45,
+    "contextTokens": 91140,
+    "percentage": 46,
     "contextWindowIsAuthoritative": true
   }
 }

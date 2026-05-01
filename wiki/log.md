@@ -4,6 +4,49 @@
 
 ---
 
+## [2026-05-01] ingest | Hermes Agent 橙皮书录入
+
+**操作类型**：素材录入（PDF）
+**触发原因**：用户请求录入新资料
+
+**素材处理**：
+- ✓ Clippings/Hermes Agent 从入门到精通.pdf → papers/（花叔橙皮书 v260407）
+
+**素材信息**：
+- 作者：花叔（公众号「花叔」、B站「AI进化论-花生」）
+- 版本：v260407
+- 页数：约80页，5大Part、17章节
+- 核心主题：自改进 Agent、学习循环、三层记忆、Harness Engineering
+
+**新增页面（4个）**：
+
+**概念层** (2个)：
+- wiki/concepts/学习循环.md - 自改进Agent核心机制，五环节闭环飞轮
+- wiki/concepts/agentskills.io.md - Skill互通标准，30+工具支持
+
+**人物层** (1个)：
+- wiki/people/Mitchell Hashimoto.md - Terraform创造者，Harness Engineering理念创始人
+
+**更新页面（4个）**：
+- wiki/tools/Hermes Agent.md - 补充学习循环、三层记忆、Skill自改进、agentskills.io互通、$5 VPS部署、三工具对比表
+- wiki/concepts/Harness Engineering.md - 补充Mitchell命名、五组件Hermes内建映射、三层监督框架
+- wiki/people/花叔.md - 补充三本橙皮书系列、Hermes橙皮书亮点
+- wiki/index.md（+4条目，总页面数60，素材数41文章+4PDF）
+
+**核心内容提取**：
+
+| 类别 | 提取内容 |
+|-----|---------|
+| **核心概念** | 自改进Agent、学习循环、三层记忆、Harness Engineering五组件、agentskills.io |
+| **关键论点** | "第一个出厂就带缰绳的Agent，缰绳会自己长大"、"不是替代是递进"、"自改进天花板取决于反馈信号" |
+| **对比分析** | Hermes vs Claude Code vs OpenClaw（工匠/标准化框架/管家） |
+| **部署方案** | $5 VPS + Telegram Gateway，24/7在线成本<$10/月 |
+| **人物观点** | Mitchell "每次犯错加一条规则"、花叔 "最终胜出的是会组合工具的人" |
+
+**溯源标注**：所有关键事实已标注来源行号（格式：`> — Clippings/papers/..., §章节`）
+
+---
+
 ## [2026-04-30] lint | 常规体检 + 深度抽查
 
 **操作类型**：健康检查
