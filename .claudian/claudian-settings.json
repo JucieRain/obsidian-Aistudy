@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "glm-5",
+  "model": "haiku",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -25,14 +25,14 @@
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {},
-      "loadUserSettings": false,
+      "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "lastModel": "custom",
-      "environmentVariables": "ANTHROPIC_API_KEY=sk-sp-d57d24ff97d74c92b5889298fdd8c8f4\nANTHROPIC_BASE_URL=https://coding.dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_MODEL=glm-5",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://coding.dashscope.aliyuncs.com/apps/anthropic|ANTHROPIC_MODEL=glm-5"
+      "lastModel": "haiku",
+      "environmentVariables": "",
+      "environmentHash": ""
     },
     "codex": {
       "enabled": false,
@@ -50,7 +50,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "glm-5"
+    "claude": "haiku"
   },
   "savedProviderEffort": {
     "claude": "high"
