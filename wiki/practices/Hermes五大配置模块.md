@@ -42,6 +42,7 @@ hermes memory setup
 ```
 
 对比内置 MEMORY：
+
 | 维度 | 内置 MEMORY | Hindsight |
 |-----|-------------|-----------|
 | 写入机制 | Hermes认为重要才写 | 自动提取实体/事实/关系 |
@@ -57,12 +58,12 @@ hermes memory status
 
 ## 模块二：感知能力（内容抓取）
 
-| 工具 | 用途 |
-|-----|------|
-| Jina Reader | 单页抓取 |
-| Crawl4 AI | 批量深度抓取 |
-| Scrapling | 反爬绕过 |
-| CamoFox | 隐身浏览器 |
+| 工具          | 用途     |
+| ----------- | ------ |
+| Jina Reader | 单页抓取   |
+| Crawl4 AI   | 批量深度抓取 |
+| Scrapling   | 反爬绕过   |
+| CamoFox     | 隐身浏览器  |
 
 CamoFox 和 Scrapling 是官方原生/可选技能，直接通过 `hermes tools + pip` 启用。
 

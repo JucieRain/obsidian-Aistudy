@@ -4,6 +4,20 @@
   "title": "目前 token 消耗比较厉害，请帮我看一下 Claude Code 如何配置，能够减少 token...",
   "titleGenerationStatus": "failed",
   "createdAt": 1777645738208,
-  "updatedAt": 1777645741936,
-  "sessionId": null
+  "updatedAt": 1777645982255,
+  "lastResponseAt": 1777645982255,
+  "sessionId": "3f9121a2-9222-45a2-b748-49f707cc2940",
+  "providerState": {
+    "providerSessionId": "3f9121a2-9222-45a2-b748-49f707cc2940"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 54513,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 54513,
+    "percentage": 27,
+    "contextWindowIsAuthoritative": true
+  }
 }
