@@ -1,8 +1,8 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-04-30 | 总页面数：57
+> 最后更新：2026-05-01 | 总页面数：60
 > 知识库主题：AI 落地实践研究
-> 素材数：41文章 + 3PDF
+> 素材数：41文章 + 4PDF
 
 ---
 
@@ -19,7 +19,9 @@
 | [[concepts/长期记忆]] | Agent持久记忆系统，三层架构设计，MemOS智能去重+混合检索 | 3 |
 | [[concepts/多Agent协同]] | 多Agent分工合作，角色隔离+共享上下文+任务委派 | 1 |
 | [[concepts/横纵分析法]] | 数字生命卡兹克的深度研究框架，半小时建立陌生领域认知 | 1 |
-| [[concepts/Harness Engineering]] | Agent工程化框架，六大战场将大模型不确定性转化为可靠系统 | 1 |
+| [[concepts/Harness Engineering]] | 缰绳工程：给AI造缰绳的方法论，五组件模型，Mitchell命名，从手动到自动 | 2 |
+| [[concepts/学习循环]] | 自改进Agent核心机制，五环节闭环：策划记忆→创建Skill→自改进→FTS5召回→用户建模 | 1 |
+| [[concepts/agentskills.io]] | Skill互通标准，30+工具支持，Skill不再绑定单一工具变成可移植能力单元 | 1 |
 | [[concepts/知识漂移]] | Wiki页面与原始文档脱节现象，三个毛病（漂移/孤岛/找不到）及解法 | 1 |
 | [[concepts/组织级AI转型]] | 一把手工程，烧token策略，全员覆盖，从烧token到系统级治理 | 1 |
 | [[concepts/Spec-Driven Development]] | 规约驱动开发，先写精确规约再让Agent生成代码 | 1 |
@@ -35,7 +37,7 @@
 |-----|------|-------|
 | [[tools/Claude Code]] | Anthropic 终端 AI 编程助手，LLM Wiki 核心工具 | 2 |
 | [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图，AI操作系统视角，CLI能力 | 4 |
-| [[tools/Hermes Agent]] | Nous Research开源Agent，10万+Stars，多平台+多Profile+持久记忆+MemOS插件+五大配置 | 6 |
+| [[tools/Hermes Agent]] | 第一个出厂就带缰绳的Agent，自改进学习循环+三层记忆+Skill自进化+agentskills.io互通+$5 VPS部署 | 7 |
 | [[tools/飞书]] | 字节跳动企业协作平台，AI Agent 接入能力 | 2 |
 | [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统+省钱安全指南 | 6 |
 | [[tools/OpenClaw 系列文档]] | OpenClaw PDF 文档集索引 | 3 |
@@ -61,12 +63,13 @@
 |-----|------|-------|
 | [[people/Karpathy]] | OpenAI 创始团队、前 Tesla AI 总监，LLM Wiki 方法提出者 | 2 |
 | [[people/Garry Tan]] | YC总裁兼CEO，GStack和GBrain开源项目作者 | 1 |
+| [[people/Mitchell Hashimoto]] | Terraform创造者，Harness Engineering理念创始人，"每次犯错加一条规则" | 1 |
 | [[people/苍何]] | AI技术博主，Hermes Agent深度实践者，521篇原创 | 1 |
 | [[people/数字生命卡兹克]] | 横纵分析法提出者，开源Prompt和Skill作者 | 1 |
 | [[people/秋芝2046]] | AI技术博主，WorkBuddy养成教程+OpenClaw省钱安全指南作者 | 2 |
 | [[people/俊哥AI副业]] | OpenClaw多Agent实践者，12个AI员工配置教程 | 1 |
 | [[people/花园老师]] | code秘密花园作者，OpenClaw完全指南（花园版）作者 | 1 |
-| [[people/花叔]] | OpenClaw橙皮书作者，AI编程知识星球星主 | 1 |
+| [[people/花叔]] | 三本橙皮书作者（Claude Code、Harness Engineering、OpenClaw、Hermes Agent） | 2 |
 | [[people/杨彧鑫AI]] | OpenClaw蓝皮书作者，23个赚钱案例+10行业落地方案 | 1 |
 | [[people/数字牧游人]] | B站UP主，普通人视角切入AI工作方式思考 | 用户推荐 |
 | [[people/第四种黑猩猩CHIMP]] | B站UP主，AI入门科普，通俗易懂 | 用户推荐 |
@@ -135,12 +138,12 @@
 
 ## 统计
 
-- **素材总数**：41 文章 + 3 PDF
-- **已处理素材**：41/44 篇 (95%)
-- **Wiki 页面数**：57
-- **概念页面**：12
+- **素材总数**：41 文章 + 4 PDF
+- **已处理素材**：42/45 篇 (93%)
+- **Wiki 页面数**：60
+- **概念页面**：14
 - **工具页面**：17
-- **人物页面**：19
+- **人物页面**：20
 - **实践页面**：11
 - **综合页面**：1
 
