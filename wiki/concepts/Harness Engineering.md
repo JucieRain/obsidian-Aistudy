@@ -1,22 +1,61 @@
 ---
 title: Harness Engineering
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-01
 sources:
   - "[[Clippings/articles/Harness Engineering：Agent开发的关键战场.md]]"
-tags: [概念, Agent工程化, AI开发范式]
+  - "[[Clippings/papers/Hermes Agent 从入门到精通.pdf]]"
+tags: [概念, Agent工程化, AI开发范式, 缰绳工程, MitchellHashimoto]
 status: stable
 ---
 
 # Harness Engineering
 
 > Agent 工程化框架，将大模型不确定性转化为可预测、可扩展、可维护的生产级系统
+> — Clippings/articles/Harness Engineering：Agent开发的关键战场.md
+
+## 命名由来
+
+**Mitchell Hashimoto**（Terraform 的创造者）第一个给这件事命名。
+
+2026年初，LangChain 团队做了一个实验：用同一个模型（GPT-5.2-Codex），只调整周围的「缰绳」配置，成绩从 52.8% 涨到 66.5%，排名从 Top 30 跳到 Top 5——**模型一行没改**。
+
+核心发现：**瓶颈不是模型，是环境**。
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §01
+
+### Mitchell 的做法
+
+Mitchell 用 Claude Code 时有个习惯：每次 Agent 犯错，就加一条规则，让它永远不再犯同一个错。
+
+典型规则：
+- "不要在这个项目里用 any 类型。"
+- "测试文件放在 __tests__ 目录下，不要放在 src 里。"
+- "commit message 用英文，动词开头。"
+
+一条一条加，几周下来，CLAUDE.md 变成了一份非常详细的项目规范。Mitchell 说这感觉就像在训练一个新队员。
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §03
 
 ## 定义
 
 Harness Engineering（驾驭工程）是专门针对 AI Agent 的软件工程分支，研究如何通过系统化的工程方法，构建、部署、运行和维护可靠的 AI Agent 系统。
 
 **核心使命**：为大模型这匹"野马"套上缰绳，让它在可控范围内发挥强大能力。
+
+## 五组件模型与 Hermes 内建映射
+
+| 组件 | 职责 | 手动实现方式 | Hermes Agent 内建系统 |
+|-----|------|-------------|----------------------|
+| **指令层** | 定义 Agent 行为规范 | 手写 CLAUDE.md / AGENTS.md | Skill 系统（自动创建 + 自改进） |
+| **约束层** | 限制 Agent 能做什么 | 配置 hooks / linter / CI | Tool permissions + sandbox + toolset 按需启用 |
+| **反馈层** | 让 Agent 知道做得好不好 | 人工审查 / 评估者 Agent | 自改进学习循环（完成任务后自动复盘优化） |
+| **记忆层** | 让 Agent 跨会话保持知识 | 手动维护 knowledge base | 三层记忆（会话/持久/Skill）+ Honcho 用户建模 |
+| **编排层** | 多 Agent 协调 | 自己搭多 Agent pipeline | 子 Agent 委派 + cron 调度 |
+
+**关键区别**：手动方式全靠人，Hermes 把五组件全部内建，开箱即用。
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §01
 
 ## 与传统软件工程的区别
 
@@ -145,9 +184,13 @@ Agent 落地的底线。
 
 - [[concepts/Agent]]
 - [[tools/Claude Code]]
+- [[tools/Hermes Agent]] — 五组件的内建实现
 - [[concepts/长期记忆]]
 - [[concepts/多Agent协同]]
+- [[concepts/学习循环]] — 反馈层的自动化
+- [[people/Mitchell Hashimoto]] — Harness Engineering 理念创始人
 
 ## 来源
 
 - [[Clippings/articles/Harness Engineering：Agent开发的关键战场.md]]
+- [[Clippings/papers/Hermes Agent 从入门到精通.pdf]] — §01 概念、§03 Mitchell做法

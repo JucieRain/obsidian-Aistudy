@@ -32,14 +32,139 @@ status: stable
 
 ## 核心特性
 
-- **模型无关**：随时切换模型（OpenRouter、OpenAI、Kimi、国产模型）
-- **多平台网关**：飞书、Telegram、Discord、Slack
+- **自改进学习循环**：完成任务后自动复盘，策划记忆→创建Skill→Skill自改进→FTS5召回→用户建模
+- **三层记忆架构**：会话记忆（发生了什么）→持久记忆（你是谁）→Skill记忆（怎么做事）
+- **Skill 自进化**：从反馈中自动学习，不是等人维护；采用 agentskills.io 标准，与 Claude Code/Cursor 互通
+- **模型无关**：随时切换模型（OpenRouter、OpenAI、Kimi、国产模型、本地Ollama）
+- **多平台网关**：12+平台支持（飞书、Telegram、Discord、Slack、WhatsApp、Signal等）
 - **跨平台上下文连续**：Telegram聊一半切Discord继续，上下文不丢
 - **多Profile**：一个Agent多角色，专人专事
-- **持久记忆**：Honcho共享记忆 + Skills沉淀
-- **自进化**：复杂任务自动沉淀技能
+- **Honcho 用户建模**：可选外挂，辩证建模用户偏好（言行不一致也能捕捉）
+- **MCP 集成**：6000+外部应用接入（GitHub、数据库、Slack、Jira等）
+
+## 核心机制详解
+
+### 学习循环：Agent 自己给自己造缰绳
+
+Hermes 的核心创新是**自改进闭环**，五个环节串成飞轮：
+
+```
+策划记忆 → 创建 Skill → Skill 自改进 → FTS5 召回 → 用户建模
+```
+
+| 环节 | 职责 | 触发时机 |
+|-----|------|---------|
+| **策划记忆** | 主动决定哪些信息值得记住 | 每轮对话结束 |
+| **创建 Skill** | 将解决方案提炼成可复用能力 | 完成复杂任务后 |
+| **Skill 自改进** | 根据反馈自动优化 Skill 文件 | 使用 Skill 过程中 |
+| **FTS5 召回** | 按需检索历史记忆，不全量加载 | 新对话开始时 |
+| **用户建模** | 推导用户偏好、习惯、目标（Honcho） | 每次对话结束 |
+
+关键区别：
+- **传统 AI**：记忆是对话记录的堆积（录像带，越来越长最终溢出）
+- **Hermes**：记忆是经验的蒸馏（笔记本，可以一直用下去）
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §03
+
+### 三层记忆架构
+
+| 层级 | 回答的问题 | 存储内容 | 技术实现 |
+|-----|-----------|---------|---------|
+| **会话记忆** | 发生了什么？ | 对话内容、工具调用、返回结果 | SQLite + FTS5 索引 |
+| **持久记忆** | 你是谁？ | 编码偏好、项目结构习惯、常用工具链 | memory 工具管理 |
+| **Skill 记忆** | 怎么做事？ | 方法论、操作规范 | ~/.hermes/skills/ markdown文件 |
+
+三层对应认知科学的三种记忆类型：
+- 情景记忆（Episodic）→ 会话记忆
+- 语义记忆（Semantic）→ 持久记忆
+- 程序性记忆（Procedural）→ Skill 记忆
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §04
+
+### Skill 自改进机制
+
+Skill 不是静态的，会在使用中自我进化：
+
+1. **执行 Skill**：Agent 按 Skill 步骤完成任务
+2. **收集反馈**：用户反应（满意/不满意/修正）被记录
+3. **更新 Skill**：Agent 分析反馈，自动修改 Skill 文件
+4. **下次生效**：改进后的 Skill 自动应用
+
+与 Mitchell Hashimoto 的对比：
+| 维度 | Mitchell 方式（手动） | Hermes 方式（自动） |
+|-----|---------------------|-------------------|
+| 规则来源 | 人观察到问题后手写 | Agent 自己从反馈中提炼 |
+| 存储位置 | CLAUDE.md（单文件） | 多个 Skill 文件 + 记忆数据库 |
+| 触发改进 | 人记得要加规则才会加 | 每次使用后自动评估 |
+| 跨项目迁移 | 需要手动复制 | Skill 全局生效，所有项目共享 |
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §03, §05
+
+### agentskills.io 互通标准
+
+Hermes 采用 agentskills.io 标准，Skill 可跨工具迁移：
+
+- **支持工具**：30+（Claude Code、Cursor、Copilot、Gemini CLI、Hermes 等）
+- **意义**：你在 Claude Code 写的 Skill，Hermes 直接用；Hermes 自动创建的 Skill，也能拿到 Claude Code 用
+- **Skill 不再绑定单一工具**：变成可移植的能力单元
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §05
+
+### 与 Claude Code / OpenClaw 对比
+
+三个工具不是三条路，是三匹马——各管一段：
+
+| 维度 | Claude Code | OpenClaw | Hermes Agent |
+|-----|-------------|----------|--------------|
+| **核心理念** | 交互式编码 | 配置即行为（SOUL.md） | 自主后台 + 自改进 |
+| **你的角色** | 坐在终端前指挥 | 写配置文件定义行为 | 部署后偶尔检查 |
+| **记忆机制** | CLAUDE.md + auto-memory | 多层记忆（透明可控） | 三层自改进记忆 |
+| **Skill 来源** | 手动安装 | ClawHub 44000+（人工维护） | Agent 自创 + 社区 Hub |
+| **运行模式** | 按需启动 | 按需启动 | 24/7 后台运行 |
+| **部署方式** | 本地 CLI（订阅制） | 本地 CLI（免费+API费） | $5 VPS / Docker / Serverless |
+| **适合场景** | 写新功能、重构代码 | 团队标准化 Agent | 7x24代码审查、知识助手 |
+
+一句话区分：
+- **Claude Code 是工匠**（实时编码，你在场）
+- **OpenClaw 是标准化框架**（配置透明，可审计）
+- **Hermes 是管家**（后台自主，你不在它也在干活）
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §16
 
 ## 安装流程
+
+### 三种部署方式
+
+| 方式 | 适用场景 | 成本 | 启动时间 |
+|-----|---------|------|---------|
+| **本地安装** | 先体验再决定 | 仅 API 费 | 5分钟 |
+| **Docker** | 隔离干净，状态持久 | 仅 API 贂 | 10分钟 |
+| **$5 VPS** | 24/7在线，手机随时可达 | $5/月 + API费 | 15分钟 |
+
+### $5 VPS 部署方案
+
+推荐配置：
+
+| VPS 提供商 | 月费 | 说明 |
+|-----------|------|------|
+| Hetzner CX22 | ~$4/月 | 性价比最高，欧洲节点 |
+| DigitalOcean Droplet | $5/月 | 新加坡/美西节点 |
+| Vultr | $5/月 | 东京节点延迟低 |
+
+选 Ubuntu 22.04 LTS，不跑本地模型内存占用 <500MB，$5 机器绰绰有余。
+
+配合 Telegram Gateway，手机上随时给 Hermes 发消息，它就在 VPS 上响应——一杯咖啡的钱，换一个24小时在线的 AI 助手。
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §02, §07
+
+### Serverless 方案（进阶）
+
+Hermes 支持 Daytona 和 Modal 两种 serverless 后端：
+- 空闲时环境休眠，收到消息时自动唤醒
+- 会话间成本趋近于零
+- 在 config.yaml 设置 `terminal: daytona` 或 `terminal: modal`
+
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §07
 
 ### 官方安装脚本
 
@@ -258,13 +383,18 @@ curl -fsSL https://raw.githubusercontent.com/MemTensor/MemOS/openclaw-local-plug
 
 ## 参见
 
-- [[tools/Claude Code]] - 开发Agent可调用
+- [[tools/Claude Code]] - 开发Agent可调用，交互式编码
 - [[tools/飞书]] - 消息渠道
-- [[tools/OpenClaw]] - 前代产品（可迁移）
+- [[tools/OpenClaw]] - 前代产品（可迁移），配置即行为
 - [[tools/MemOS]] - 记忆插件，智能去重+混合检索
 - [[concepts/Agent]] - Agent基础概念
 - [[concepts/多Agent协同]] - 军团架构详解
 - [[concepts/长期记忆]] - Honcho记忆系统
+- [[concepts/学习循环]] - 自改进Agent核心机制
+- [[concepts/Harness Engineering]] - 缰绳工程方法论
+- [[concepts/agentskills.io]] - Skill互通标准
+- [[people/花叔]] - 橙皮书作者
+- [[people/Mitchell Hashimoto]] - Harness Engineering理念创始人
 - [[people/逛逛]] - MemOS插件推荐者
 - [[people/科技君]] - 五大配置模块教程作者
 - [[practices/Hermes五大配置模块]] - 进阶配置指南
@@ -277,3 +407,4 @@ curl -fsSL https://raw.githubusercontent.com/MemTensor/MemOS/openclaw-local-plug
 - [[Clippings/Hermes Agent 完整指南：从安装到进阶玩法，一篇搞定.md]]
 - [[Clippings/articles/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了]]
 - [[Clippings/articles/装完 Hermes 一定要配置这五套系统，秒变满配版，能力提升数倍不止]]
+- [[Clippings/papers/Hermes Agent 从入门到精通.pdf]] — 橙皮书 v260407，花叔著
