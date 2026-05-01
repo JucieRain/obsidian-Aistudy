@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-04-22
-updated: 2026-04-30
+updated: 2026-05-01
 sources:
   - "[[Clippings/articles/Hermes Agent 新手教程.md]]"
   - "[[Clippings/articles/Hermes + 飞书踩坑修复.md]]"
@@ -9,13 +9,15 @@ sources:
   - "[[Clippings/Hermes Agent 完整指南：从安装到进阶玩法，一篇搞定.md]]"
   - "[[Clippings/articles/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了]]"
   - "[[Clippings/articles/装完 Hermes 一定要配置这五套系统，秒变满配版，能力提升数倍不止]]"
-tags: [工具, Agent, NousResearch, 飞书, MemOS]
+  - "[[Clippings/papers/Hermes Agent 从入门到精通.pdf]]"
+tags: [工具, Agent, NousResearch, 飞书, MemOS, 自改进, HarnessEngineering]
 status: stable
 ---
 
 # Hermes Agent
 
-> Nous Research 推出的开源 AI Agent，74K+ Stars，支持多平台消息网关、多Profile、长期记忆
+> 第一个出厂就带缰绳的 AI Agent——自己给自己造缰绳，缰绳会自己长大
+> — Clippings/papers/Hermes Agent 从入门到精通.pdf, §01
 
 ## 项目概览
 
