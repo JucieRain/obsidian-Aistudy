@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777684112991-yesxio51e",
+  "providerId": "claude",
+  "title": "这是我五一需要做的几件事情，需要你帮我一块梳理一下。最终需要的待办任务列表，请分三个项目单独看。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777684113000,
+  "updatedAt": 1777684152529,
+  "lastResponseAt": 1777684152529,
+  "sessionId": "a12d8de7-8e3d-4eff-bd58-ab2fabf81bcd",
+  "providerState": {
+    "providerSessionId": "a12d8de7-8e3d-4eff-bd58-ab2fabf81bcd"
+  },
+  "currentNote": "Journal/2026-04-30.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 51393,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 51393,
+    "percentage": 26,
+    "contextWindowIsAuthoritative": true
+  }
+}
