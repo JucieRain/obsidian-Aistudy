@@ -4,8 +4,8 @@
   "title": "这是我五一需要做的几件事情，需要你帮我一块梳理一下。最终需要的待办任务列表，请分三个项目单独看。",
   "titleGenerationStatus": "failed",
   "createdAt": 1777684113000,
-  "updatedAt": 1777684669250,
-  "lastResponseAt": 1777684669249,
+  "updatedAt": 1777685416098,
+  "lastResponseAt": 1777685416098,
   "sessionId": "a12d8de7-8e3d-4eff-bd58-ab2fabf81bcd",
   "providerState": {
     "providerSessionId": "a12d8de7-8e3d-4eff-bd58-ab2fabf81bcd"
@@ -13,12 +13,12 @@
   "currentNote": "Journal/2026-04-30.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 52718,
+    "inputTokens": 55842,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 52718,
-    "percentage": 26,
+    "contextTokens": 55842,
+    "percentage": 28,
     "contextWindowIsAuthoritative": true
   }
 }
