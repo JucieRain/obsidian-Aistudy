@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"D:\\\\Program Files\\\\Obsidian\\\\仓库\\\\AIstudy\\\" && rtk git fetch origin 2>&1\",\"description\":\"测试 Git fetch 是否成功\"}",
+  "error": "Exit code 128\nFAILED: git fetch\nfatal: unable to access 'https://github.com/JucieRain/obsidian-Aistudy.git/': Failed to connect to github.com port 443 after 21092 ms: Could not connect to server",
+  "timestamp": "2026-05-10T11:02:04.115Z",
+  "retry_count": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778410870961-f3huk1om1",
+  "providerId": "claude",
+  "title": "目前 Git插件的git操作始终显示访问失败是怎么回事？你帮忙检查一下并修复一下",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778410870961,
+  "updatedAt": 1778410976199,
+  "lastResponseAt": 1778410976199,
+  "sessionId": "e0ec3f9b-183d-466c-8724-6cf713002834",
+  "providerState": {
+    "providerSessionId": "e0ec3f9b-183d-466c-8724-6cf713002834"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 68780,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 68780,
+    "percentage": 34,
+    "contextWindowIsAuthoritative": true
+  }
+}

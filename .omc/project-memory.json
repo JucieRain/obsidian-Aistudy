@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778410877991,
+  "projectRoot": "D:\\Program Files\\Obsidian\\仓库\\AIstudy",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "scripts"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "archive": {
+      "path": "archive",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778410877920,
+      "keyFiles": []
+    },
+    "Clippings": {
+      "path": "Clippings",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1778410877921,
+      "keyFiles": [
+        "Claude Code 必备神器：oh-my-claudecode 及其  Team Mode 实践.md",
+        "Oh My ClaudeCode.md",
+        "用 AI 搭一套会复利的知识系统【数字游牧人懒人包】.docx"
+      ]
+    },
+    "Journal": {
+      "path": "Journal",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1778410877921,
+      "keyFiles": [
+        "0422我的待办.md",
+        "2026-04-30.md",
+        "待办清单.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 2,
+      "lastAccessed": 1778410877922,
+      "keyFiles": [
+        "extract_pdf.py",
+        "pandoc_postprocess.py"
+      ]
+    },
+    "wiki": {
+      "path": "wiki",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1778410877923,
+      "keyFiles": [
+        "index.md",
+        "lint-report-2026-04-30.md",
+        "log.md",
+        "schedule.jsonl"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": ".obsidian\\plugins\\obsidian-git\\data.json",
+      "accessCount": 1,
+      "lastAccessed": 1778410891631,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
