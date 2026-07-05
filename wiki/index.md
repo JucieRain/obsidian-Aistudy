@@ -1,6 +1,6 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-07-05 | 总页面数：64
+> 最后更新：2026-07-05 | 总页面数：67
 > 知识库主题：AI 落地实践研究
 > 素材数：41文章 + 4PDF
 
@@ -29,6 +29,7 @@
 | [[concepts/PARA]] | Tiago Forte 知识组织框架：Projects/Areas/Resources/Archives 四层 | 1 |
 | [[concepts/Zettelkasten]] | 卢曼原子化笔记方法：一条笔记一个想法，用链接编织知识网络 | 1 |
 | [[concepts/MOC]] | 内容地图，为主题建立笔记链接清单，笔记量>20条时自然涌现 | 1 |
+| [[concepts/认知蒸馏]] | 通过多Agent协同调研，将人物认知模式蒸馏为结构化模型 | 1 |
 
 ---
 
@@ -55,6 +56,8 @@
 | [[tools/Typeless]] | AI语音听写工具，边想边说+翻译+个性化风格+安装教程 | 3 |
 | [[tools/MemOS]] | 记忆张量团队开源记忆系统，智能去重+混合检索+多Agent协同 | 1 |
 | [[tools/qmd]] | 本地Markdown搜索引擎，BM25+向量混合搜索，为LLM Wiki提供检索能力 | 1 |
+| [[tools/女娲Skill]] | Claude Code认知蒸馏工具，6Agent并行调研，输出受众卡+评审卡 | 1 |
+| [[tools/PPT Director Skill]] | Claude Code PPT导演工具，5阶段自动调度，17种页型+三重评审 | 1 |
 
 ---
 

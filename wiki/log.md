@@ -17,6 +17,12 @@
 - **更新页面**：[[wiki/tools/Obsidian]]（2025-2026更新 + 20插件矩阵 + 5周安装计划）、[[wiki/concepts/LLM Wiki]]（v2六大扩展）
 - **来源**：微信公众号 https://mp.weixin.qq.com/s/SPLTD-hFAsyYAA7V1lU8OA
 
+## 2026-07-05 ingest
+
+- **素材**：[[Clippings/articles/AI驱动的PPT工作流：女娲Skill+PPT Director.md]]
+- **新增页面**：[[wiki/concepts/认知蒸馏]]、[[wiki/tools/女娲Skill]]、[[wiki/tools/PPT Director Skill]]
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/WB5SiBxIZn_v8XK5af-uJw
+
 ---
 
 ## [2026-05-01] ingest | Hermes Agent 橙皮书录入
