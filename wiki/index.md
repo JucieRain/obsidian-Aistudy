@@ -1,6 +1,6 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-07-05 | 总页面数：61
+> 最后更新：2026-07-05 | 总页面数：64
 > 知识库主题：AI 落地实践研究
 > 素材数：41文章 + 4PDF
 
@@ -26,6 +26,9 @@
 | [[concepts/组织级AI转型]] | 一把手工程，烧token策略，全员覆盖，从烧token到系统级治理 | 1 |
 | [[concepts/Spec-Driven Development]] | 规约驱动开发，先写精确规约再让Agent生成代码 | 1 |
 | [[concepts/Skill]] | Agent自动沉淀的可复用能力单元，让做过的事情不需要再教一遍 | 1 |
+| [[concepts/PARA]] | Tiago Forte 知识组织框架：Projects/Areas/Resources/Archives 四层 | 1 |
+| [[concepts/Zettelkasten]] | 卢曼原子化笔记方法：一条笔记一个想法，用链接编织知识网络 | 1 |
+| [[concepts/MOC]] | 内容地图，为主题建立笔记链接清单，笔记量>20条时自然涌现 | 1 |
 
 ---
 
@@ -36,7 +39,7 @@
 | 页面 | 摘要 | 来源数 |
 |-----|------|-------|
 | [[tools/Claude Code]] | Anthropic 终端 AI 编程助手，LLM Wiki 核心工具 | 2 |
-| [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图，AI操作系统视角，CLI能力 | 4 |
+| [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图，AI操作系统视角，CLI+20插件矩阵 | 5 |
 | [[tools/Hermes Agent]] | 第一个出厂就带缰绳的Agent，自改进学习循环+三层记忆+Skill自进化+agentskills.io互通+$5 VPS部署 | 7 |
 | [[tools/飞书]] | 字节跳动企业协作平台，AI Agent 接入能力 | 2 |
 | [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统+省钱安全指南 | 6 |

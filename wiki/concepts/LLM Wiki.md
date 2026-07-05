@@ -1,11 +1,12 @@
 ---
 title: LLM Wiki
 created: 2026-04-22
-updated: 2026-04-30
+updated: 2026-07-05
 sources:
   - "[[Clippings/articles/Obsidian + Claude Code 教程.md]]"
   - "[[Clippings/articles/llm Wiki 养了三周，开始出毛病了]]"
   - "[Karpathy Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)"
+  - "[[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]"
 tags: [概念, 知识管理, Karpathy, 方法论]
 status: stable
 ---
@@ -125,6 +126,21 @@ status: stable
 - Human owns verification（人拥有验证权）
 - AI是园丁，可以浇水除草
 - 但种什么花、留哪棵——人说了算
+
+## LLM Wiki v2 六大扩展 | 2026-07-05
+
+> — [[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]
+
+agentmemory 项目在 Karpathy 原版基础上的演进：
+
+1. **置信度评分**：每个事实有分数，随时间衰减，被新来源确认时回升
+2. **记忆四级层级**：工作记忆 → 情景记忆（摘要）→ 语义记忆（事实）→ 程序记忆（模式）
+3. **遗忘曲线**：长期未访问的知识降噪处理，保留关键信息
+4. **知识图谱**：类型化的实体与关系，支持影响分析
+5. **混合搜索**：BM25 + 向量 + 图遍历，准确率 95.2%（LongMemEval-S）
+6. **自动化钩子**：新源自动摄取、实体抽取、图谱更新、定期检查
+
+> — [[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]], L240-260
 
 ## 参见
 

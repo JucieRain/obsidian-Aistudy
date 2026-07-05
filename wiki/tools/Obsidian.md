@@ -1,12 +1,13 @@
 ---
 title: Obsidian
 created: 2026-04-22
-updated: 2026-04-30
+updated: 2026-07-05
 sources:
   - "[[Clippings/articles/Obsidian + Claude Code 教程.md]]"
   - "[[Clippings/articles/磨砺你的思维。.md]]"
   - "[[Clippings/articles/Obsidian x Agent 终极指南，从零打造个人 Agent 系统]]"
   - "[[Clippings/articles/Obsidian Cli 基础使用教程 AI化知识管理全过程]]"
+  - "[[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]"
 tags: [工具, 知识管理, 笔记, Markdown, AI操作系统]
 status: stable
 ---
@@ -153,6 +154,51 @@ Obsidian 是 Karpathy 方法的「IDE」：
 - 附件文件夹：`Clippings/assets/`
 - 使用相对路径链接
 - 绑定快捷键下载图片到本地
+
+## 2025-2026 重要更新 | 2026-07-05
+
+> — [[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]
+
+- **Bases**：原生数据库视图，读 YAML 元数据，与 Properties 深度整合
+- **Canvas 增强**：支持反向链接，可嵌入看板
+- **AI 深度融合**：可通过 Ollama 实现完全本地的私有智能知识库
+
+## 推荐插件矩阵（20个）| 2026-07-05
+
+> — [[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]
+
+| 类别 | 插件 | 核心功能 |
+|------|------|---------|
+| **数据查询** | Dataview | DQL 语法跨笔记查询 YAML 元数据，生成动态表格/列表 |
+| | Omnisearch | 智能全文搜索，支持 OCR & PDF，权重算法排序 |
+| **自动化模板** | Templater | 可编程模板引擎，支持 JS、系统命令、动态日期 |
+| | QuickAdd | 工作流胶水：快速捕获、模板创建、链式宏执行 |
+| | Linter | 保存时自动统一 Markdown 格式、YAML 排序 |
+| **任务管理** | Tasks | 跨笔记任务管理，截止日期、循环、优先级 |
+| | Kanban | 可视化看板（Markdown 存储） |
+| | Calendar + Periodic Notes | 月视图日历 + 周/月/季/年笔记 |
+| **可视化** | Excalidraw | 手绘白板，元素可链接笔记（570万+下载） |
+| **导航增强** | Various Complements | IDE 级自动补全，无需 [[ 即可建议链接 |
+| | Commander | 常用命令添加至界面各处 |
+| | Note Toolbar | 上下文感知工具栏 |
+| **AI 集成** | Smart Connections | 本地 AI 嵌入，侧边栏自动显示语义相关笔记 |
+| | Obsidian Copilot | 基于 RAG 的本地 AI 对话（Ollama + llama3.2） |
+| | Text Generator | 连接多模型，辅助写作、摘要、翻译 |
+| **版本控制** | Git | 10分钟自动提交，完整差异对比 |
+| | BRAT | 直接从 GitHub 安装/更新 Beta 插件 |
+| **界面** | Style Settings | 图形化调整主题变量（搭配 Minimal 主题） |
+| | Supercharged Links | 基于元数据给链接添加颜色/emoji 前缀 |
+| | Meta Bind | 笔记内嵌入交互组件（滑块、开关、按钮） |
+
+### 5周渐进安装计划
+
+- **第1周**：Templater, Calendar+Periodic Notes, Linter, Git
+- **第2周**：Dataview, Tasks, QuickAdd, Various Complements
+- **第3周**：Commander, Style Settings, Omnisearch, Note Toolbar
+- **第4周**：Excalidraw, Kanban, Meta Bind, BRAT, Supercharged Links
+- **第5周（按需）**：Smart Connections, Copilot, Text Generator
+
+> — [[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]], L120-200
 
 ## 参见
 

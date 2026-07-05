@@ -10,6 +10,13 @@
 - **更新页面**：[[wiki/tools/WorkBuddy]]（追加12类应用案例 + 包装印刷垂直应用 + vs传统AI工具对比）
 - **来源**：飞书文档 https://my.feishu.cn/wiki/OJDfwtORZiirHIkt9B7cWnmKnTb
 
+## 2026-07-05 ingest
+
+- **素材**：[[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]
+- **新增页面**：[[wiki/concepts/PARA]]、[[wiki/concepts/Zettelkasten]]、[[wiki/concepts/MOC]]
+- **更新页面**：[[wiki/tools/Obsidian]]（2025-2026更新 + 20插件矩阵 + 5周安装计划）、[[wiki/concepts/LLM Wiki]]（v2六大扩展）
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/SPLTD-hFAsyYAA7V1lU8OA
+
 ---
 
 ## [2026-05-01] ingest | Hermes Agent 橙皮书录入
