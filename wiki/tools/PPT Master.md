@@ -2,7 +2,7 @@
 title: PPT Master
 created: 2026-07-05
 updated: 2026-07-05
-sources: ["[[Clippings/articles/PPT Master：开源AI PPT生成工具.md]]"]
+sources: ["[[Clippings/articles/PPT Master：开源AI PPT生成工具.md]]", "[[Clippings/articles/13个开源PPT Skill合集.md]]"]
 tags: [工具, PPT, 开源, python, AI工具]
 status: stable
 ---
@@ -62,6 +62,23 @@ pip install -r requirements.txt
 ```
 
 前置条件：Python 3.10+
+
+## PPT Skill 生态速览 | 2026-07-05
+
+> — [[Clippings/articles/13个开源PPT Skill合集.md]]
+
+除 PPT Master 外，开源社区还有 12 个 PPT 相关 Skill，按交付类型分为四类：
+
+| 类型 | 代表项目 | 特点 |
+|------|---------|------|
+| **原生可编辑 PPTX** | pptx-from-layouts-skill, Huashu Design, Fergana-Labs | 符合企业模板、Agent 视觉生成、Node.js 操作 |
+| **HTML 演示** | Frontend Slides (2.3万★), Guizang PPT, HTML PPT Skill | 视觉上限高、单文件横向翻页、演讲者模式 |
+| **图片式卡片** | Baoyu Slide Deck, gpt-image2-ppt-skills | 文章快速转卡片、仿模板版式 |
+| **平台与框架** | Presenton, PPTAgent, Anything to NotebookLM | 本地部署、Agentic 框架、多格式输出 |
+
+选择原则：先想清楚要交付什么——可编辑文件、现场演讲、还是图片卡片——再选工具。
+
+> — [[Clippings/articles/13个开源PPT Skill合集.md]]
 
 ## 参见
 
