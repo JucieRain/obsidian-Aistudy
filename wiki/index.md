@@ -1,6 +1,6 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-07-05 | 总页面数：67
+> 最后更新：2026-07-05 | 总页面数：68
 > 知识库主题：AI 落地实践研究
 > 素材数：41文章 + 4PDF
 
@@ -58,6 +58,7 @@
 | [[tools/qmd]] | 本地Markdown搜索引擎，BM25+向量混合搜索，为LLM Wiki提供检索能力 | 1 |
 | [[tools/女娲Skill]] | Claude Code认知蒸馏工具，6Agent并行调研，输出受众卡+评审卡 | 1 |
 | [[tools/PPT Director Skill]] | Claude Code PPT导演工具，5阶段自动调度，17种页型+三重评审 | 1 |
+| [[tools/PPT Master]] | 开源AI PPT工具(GitHub 2.26万Star)，SVG→DrawingML原生可编辑.pptx | 1 |
 
 ---
 

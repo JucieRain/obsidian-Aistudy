@@ -23,6 +23,12 @@
 - **新增页面**：[[wiki/concepts/认知蒸馏]]、[[wiki/tools/女娲Skill]]、[[wiki/tools/PPT Director Skill]]
 - **来源**：微信公众号 https://mp.weixin.qq.com/s/WB5SiBxIZn_v8XK5af-uJw
 
+## 2026-07-05 ingest
+
+- **素材**：[[Clippings/articles/PPT Master：开源AI PPT生成工具.md]]
+- **新增页面**：[[wiki/tools/PPT Master]]
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/Wtgn3G6et93_sX8ql-3eHA
+
 ---
 
 ## [2026-05-01] ingest | Hermes Agent 橙皮书录入
