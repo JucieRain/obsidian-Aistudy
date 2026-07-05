@@ -29,6 +29,23 @@
 - **新增页面**：[[wiki/tools/PPT Master]]
 - **来源**：微信公众号 https://mp.weixin.qq.com/s/Wtgn3G6et93_sX8ql-3eHA
 
+## 2026-07-05 ingest
+
+- **素材**：[[Clippings/articles/抖音一键入Obsidian：Douyin Capture插件.md]]
+- **新增页面**：[[wiki/tools/Douyin Capture]]
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/o4CDGEmLobzTuxC1E2sMSw
+
+## 2026-07-05 ingest
+
+- **素材**：[[Clippings/articles/用AI练出流利英语口语的三阶段路径.md]]
+- **新增页面**：[[wiki/tools/ELSA Speak]]、[[wiki/practices/AI辅助英语口语三阶段路径]]
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/o4fvfooHAN_sC4eAsTd2dA
+
+## 2026-07-05 ingest
+
+- **素材**：PPT 对齐原则实操教程（仅保存素材，未提取 Wiki——内容依赖图片演示）
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/ykId0Tb5hhMrIAj20dFKOA
+
 ---
 
 ## [2026-05-01] ingest | Hermes Agent 橙皮书录入
