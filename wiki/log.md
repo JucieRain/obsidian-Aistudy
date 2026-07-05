@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-07-05 ingest
+
+- **素材**：[[Clippings/articles/100个WorkBuddy应用案例合集.md]]
+- **更新页面**：[[wiki/tools/WorkBuddy]]（追加12类应用案例 + 包装印刷垂直应用 + vs传统AI工具对比）
+- **来源**：飞书文档 https://my.feishu.cn/wiki/OJDfwtORZiirHIkt9B7cWnmKnTb
+
+---
+
 ## [2026-05-01] ingest | Hermes Agent 橙皮书录入
 
 **操作类型**：素材录入（PDF）
