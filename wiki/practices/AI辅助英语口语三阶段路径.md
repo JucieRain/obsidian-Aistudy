@@ -2,7 +2,7 @@
 title: AI辅助英语口语三阶段路径
 created: 2026-07-05
 updated: 2026-07-05
-sources: ["[[Clippings/articles/用AI练出流利英语口语的三阶段路径.md]]"]
+sources: ["[[Clippings/articles/用AI练出流利英语口语的三阶段路径.md]]", "[[Clippings/articles/30年哑巴英语，用ChatGPT练开口.md]]"]
 tags: [实践, 英语学习, AI, 口语]
 status: stable
 ---
@@ -38,6 +38,34 @@ AI 恰好解决了中国英语学习者三大痛点：不敢开口（无限耐�
 ## 零成本配置
 
 ChatGPT 免费版语音对话 + YouTube 影子跟读。加 ELSA（月费约 100 元）效果更完整。
+
+## 推荐 ChatGPT 陪练提示词
+
+**英文版**（第一阶段用）：
+```
+Please be my English conversation partner. Start with simple questions about my day.
+Correct my grammar gently. Speak at a natural pace like a friend.
+```
+
+**中文定制版**（更细腻的语气控制）：
+```
+你是我的美式英语聊天伙伴，请用温柔、鼓励的方式陪我练口语。
+我会用英文或中英文夹杂表达，你不要打断我。
+每次只纠正一个最重要的问题，然后给我一个更自然的表达。
+请像朋友一样继续问我问题。
+```
+
+> — [[Clippings/articles/30年哑巴英语，用ChatGPT练开口.md]]
+
+## 心理建设：丢掉面子
+
+来自 30 年哑巴英语者的真实体悟：
+
+- **刚需 > 自律**：不是"以后可能用得上"，是"下周就要当众开口"，才是真正的驱动力
+- **丢掉面子解决 80%**：说错、卡住、发音不准——都不怎么样。ChatGPT 不会笑你，真人俱乐部里也没人笑你
+- **从"准备"到"真说"**：AI 陪练是准备阶段，最终必须找真人场合说出来（演讲俱乐部、会议、朋友）
+
+> — [[Clippings/articles/30年哑巴英语，用ChatGPT练开口.md]]
 
 ## 适用条件
 
