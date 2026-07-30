@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-07-30 ingest
+
+- **素材**：[[Clippings/articles/Obsidian 的 13 种内容形式.md]]
+- **新增页面**：[[wiki/concepts/Obsidian 四层架构]]
+- **更新页面**：[[wiki/tools/Obsidian]]（13种内容形式取舍指南 + 来源追加）
+- **来源**：微信公众号 https://mp.weixin.qq.com/s/X_c1dgLDAtq951MipIUYWw
+
 ## 2026-07-05 ingest
 
 - **素材**：[[Clippings/articles/100个WorkBuddy应用案例合集.md]]

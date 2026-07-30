@@ -1,6 +1,6 @@
 # Wiki 知识库索引
 
-> 最后更新：2026-07-05 | 总页面数：73
+> 最后更新：2026-07-30 | 总页面数：74
 > 知识库主题：AI 落地实践研究
 > 素材数：41文章 + 4PDF
 
@@ -30,6 +30,7 @@
 | [[concepts/Zettelkasten]] | 卢曼原子化笔记方法：一条笔记一个想法，用链接编织知识网络 | 1 |
 | [[concepts/MOC]] | 内容地图，为主题建立笔记链接清单，笔记量>20条时自然涌现 | 1 |
 | [[concepts/认知蒸馏]] | 通过多Agent协同调研，将人物认知模式蒸馏为结构化模型 | 1 |
+| [[concepts/Obsidian 四层架构]] | Markdown→双向链接→Frontmatter→Dataview/Canvas/图谱，从单篇笔记到知识网络的四层建筑模型 | 1 |
 
 ---
 
@@ -40,7 +41,7 @@
 | 页面 | 摘要 | 来源数 |
 |-----|------|-------|
 | [[tools/Claude Code]] | Anthropic 终端 AI 编程助手，LLM Wiki 核心工具 | 2 |
-| [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图，AI操作系统视角，CLI+20插件矩阵 | 5 |
+| [[tools/Obsidian]] | Markdown 知识管理工具，双向链接与图谱视图，AI操作系统视角，CLI+20插件矩阵 | 6 |
 | [[tools/Hermes Agent]] | 第一个出厂就带缰绳的Agent，自改进学习循环+三层记忆+Skill自进化+agentskills.io互通+$5 VPS部署 | 7 |
 | [[tools/飞书]] | 字节跳动企业协作平台，AI Agent 接入能力 | 2 |
 | [[tools/OpenClaw]] | 开源自托管AI Agent平台，GitHub历史增速第一，多Agent路由+记忆系统+省钱安全指南 | 6 |

@@ -1,13 +1,14 @@
 ---
 title: Obsidian
 created: 2026-04-22
-updated: 2026-07-05
+updated: 2026-07-30
 sources:
   - "[[Clippings/articles/Obsidian + Claude Code 教程.md]]"
   - "[[Clippings/articles/磨砺你的思维。.md]]"
   - "[[Clippings/articles/Obsidian x Agent 终极指南，从零打造个人 Agent 系统]]"
   - "[[Clippings/articles/Obsidian Cli 基础使用教程 AI化知识管理全过程]]"
   - "[[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]]"
+  - "[[Clippings/articles/Obsidian 的 13 种内容形式.md]]"
 tags: [工具, 知识管理, 笔记, Markdown, AI操作系统]
 status: stable
 ---
@@ -200,8 +201,53 @@ Obsidian 是 Karpathy 方法的「IDE」：
 
 > — [[Clippings/articles/Obsidian本地知识库搭建：从入门到第二大脑.md]], L120-200
 
+## 13种内容形式与取舍指南 | 2026-07-30
+
+基于实战经验，对 Obsidian 13 种内容形式的取舍建议：
+
+### 推荐使用（标准 Markdown）
+
+**文本格式**：只用粗体、斜体、高亮，减少其他格式以避免导出异常。可通过主题 CSS 给不同格式赋不同颜色。
+
+**无序列表** `-`：分类和集合的首选，灵活不绑定顺序。
+
+**代码块**：必须标注语言名（如 ` ```python `），否则无语法高亮。
+
+**表格**：并排对比信息的唯一选择，虽编辑体验一般但无可替代。`:---` 左对齐，`:---:` 居中，`---:` 右对齐。
+
+**脚注** `[^1]`：一句话说不完的补充、来源、延伸阅读全部放脚注，正文只留主线。Obsidian 支持悬停预览和侧边栏脚注视图。
+
+> — [[Clippings/articles/Obsidian 的 13 种内容形式.md]], L28-35, L80-85, L88-95, L120-126
+
+### 谨慎使用（Obsidian 扩展）
+
+**内部链接 `[[笔记名]]`**：核心能力，但注意只在 Obsidian 内部操作重命名时才自动更新，外部（Finder/终端）操作则失效。块引用 `^块id` 脆弱，段落重新编辑可能导致 ID 变更。嵌入适合稳定不变的内容。
+
+**图片 `![[图片.png|400]]`**：利用全局索引，笔记移动不影响路径。
+
+**任务列表 `- [ ]`**：配合 Tasks 插件或 Dataview 可跨文件聚合待办，变成"可查询的待办信号"。
+
+> — [[Clippings/articles/Obsidian 的 13 种内容形式.md]], L102-117, L128-134, L40-47
+
+### 不推荐（锁定生态）
+
+**Callout `> [!tip]`**：会锁定在 Obsidian 生态，切换到 Typora、VS Code 等会显示源码符号，破坏可移植性。坚持用标准 `>`。
+
+**HTML 嵌入**：一旦开始写 HTML 就放弃可移植性。唯一场景：`<center>` 居中、`<details><summary>` 折叠块。
+
+**Mermaid**：仅适合不超过 5 个节点的简单流程，中文常乱码。复杂图用 Excalidraw 画完截图粘贴。
+
+> — [[Clippings/articles/Obsidian 的 13 种内容形式.md]], L50-55, L140-147, L138-143
+
+### 选择原则
+
+**结构重于样式**。选择内容形式时优先考虑：可移植性 > 可搜索性 > 可维护性 > 样式表现。
+
+> — [[Clippings/articles/Obsidian 的 13 种内容形式.md]], L155-166
+
 ## 参见
 
+- [[concepts/Obsidian 四层架构]]
 - [[tools/Claude Code]]
 - [[tools/Claudian]] - Claude Code 嵌入 Obsidian 的插件
 - [[tools/Web Clipper]] - 网页剪藏
@@ -216,3 +262,4 @@ Obsidian 是 Karpathy 方法的「IDE」：
 - [[Clippings/articles/Obsidian + Claude Code 教程.md]]
 - [[Clippings/articles/Obsidian x Agent 终极指南，从零打造个人 Agent 系统]]
 - [[Clippings/articles/Obsidian Cli 基础使用教程 AI化知识管理全过程]]
+- [[Clippings/articles/Obsidian 的 13 种内容形式.md]]
